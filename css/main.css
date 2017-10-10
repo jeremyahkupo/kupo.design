@@ -141,7 +141,7 @@ footer {
     z-index: 1;
     left: 500px;
     top: 300px;
-  }
+    }
 
   .polaroid:nth-child(2) {
     transform: rotate(9deg);
@@ -166,9 +166,10 @@ footer {
 
   .polaroid:nth-child(5) {
     transform: rotate(8deg);
-    z-index: 0;
+    z-index: 2;
     left: 500px;
     top: 100px;
+    margin: 0;
   }
 
   .polaroid:hover {

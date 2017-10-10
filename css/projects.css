@@ -7,6 +7,12 @@ html {
   padding-top: 1em;
 }
 
+.home {
+  display: block;
+  width: 20%;
+  padding-bottom: 2em;
+}
+
 .quotebook1 {
   position: absolute;
   width: 320px;
@@ -47,6 +53,12 @@ footer {
 
   html {
     max-width: 580px;
+  }
+
+  .home {
+    display: block;
+    position: absolute;
+    width: 50px;
   }
 
   .quotebook1 {
@@ -92,10 +104,10 @@ footer {
     height: 800px;
   }
 
-  .logo {
+  .home {
     display: block;
     position: absolute;
-    width: 7%;
+    width: 100px;
   }
 
   .quotebook1 {
