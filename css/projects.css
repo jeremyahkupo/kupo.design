@@ -4,6 +4,7 @@ html {
   max-width: 400px;
   margin: auto;
   background-color: #f9f9f9;
+  padding-top: 1em;
 }
 
 .quotebook1 {
@@ -89,6 +90,12 @@ footer {
 
   .header {
     height: 800px;
+  }
+
+  .logo {
+    display: block;
+    position: absolute;
+    width: 7%;
   }
 
   .quotebook1 {
