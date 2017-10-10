@@ -1,22 +1,27 @@
-html {
-  padding: 0;
-  margin: 0;
-}
-
 .jeremy1 {
-  max-width: 700px;
+  margin: auto;
   position: absolute;
 }
 
 .logo {
   position: relative;
-  padding-top: 440px;
+  padding-top: 492px;
   z-index: 1;
 }
 
 .jeremy2 {
-  max-width: 700px;
   position: relative;
   bottom: 92px;
-  left: 0;
+  margin: auto;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .jeremy2 {
+    display: block;
+    margin: auto;
+    right: 180px;
+  }
+
 }
