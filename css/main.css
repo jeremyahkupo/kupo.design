@@ -36,12 +36,14 @@ html {
 
 .bio2 {
   display: none;
+  margin: 0;
 }
 
 /* Portfolio Pieces */
 
 .projects {
-  display: inherit;
+  display: block;
+  height: 900px;
 }
 
 .polaroid > img {
@@ -88,7 +90,7 @@ footer {
     display: inherit;
   }
 
-  .projects {
+  .polaroid {
     display: inline-block;
     max-width: 49%;
   }
@@ -134,8 +136,7 @@ footer {
   /* Portfolio Pieces */
 
   .projects {
-    display: inherit;
-    position: absolute;
+    position: relative;
   }
 
   .polaroid {
@@ -169,7 +170,7 @@ footer {
   .polaroid:nth-child(3) {
     transform: rotate(-5deg);
     z-index: 4;
-    left: 200px;
+    left: 300px;
     top: 100px;
   }
 
