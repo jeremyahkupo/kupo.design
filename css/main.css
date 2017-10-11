@@ -4,6 +4,7 @@ html {
   max-width: 400px;
   margin: auto;
   background-color: #f9f9f9;
+  padding-top: 1.5em;
 }
 
 .jeremy1 {
@@ -30,6 +31,7 @@ html {
 
 .bio1 {
   display: inherit;
+  padding: 2em;
 }
 
 .bio2 {
