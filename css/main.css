@@ -43,7 +43,7 @@ html {
 
 .projects {
   display: block;
-  height: 900px;
+  min-height: 1100px;
 }
 
 .polaroid > img {
@@ -52,6 +52,7 @@ html {
 
 footer {
   background-color: #fff;
+  margin-top: 2em;
 }
 
 
@@ -156,7 +157,7 @@ footer {
   .polaroid:nth-child(1) {
     transform: rotate(-6deg);
     z-index: 1;
-    left: 500px;
+    left: 600px;
     top: 300px;
     }
 
@@ -170,23 +171,8 @@ footer {
   .polaroid:nth-child(3) {
     transform: rotate(-5deg);
     z-index: 4;
-    left: 300px;
+    left: 50px;
     top: 100px;
-  }
-
-  .polaroid:nth-child(4) {
-    transform: rotate(-10deg);
-    z-index: 3;
-    left: 0;
-    top: 200px;
-  }
-
-  .polaroid:nth-child(5) {
-    transform: rotate(8deg);
-    z-index: 2;
-    left: 500px;
-    top: 100px;
-    margin: 0;
   }
 
   .polaroid:hover {
