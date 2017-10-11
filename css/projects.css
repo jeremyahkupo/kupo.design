@@ -33,7 +33,7 @@ html {
 
 .qb-logo {
   position: relative;
-  padding-top: 212px;
+  padding-top: 240px;
   z-index: 1;
   width: 320px;
 }
@@ -42,7 +42,7 @@ html {
   position: relative;
   width: 550px;
   left: -115px;
-  top: -100px;
+  top: -125px;
 }
 
 .projects {
