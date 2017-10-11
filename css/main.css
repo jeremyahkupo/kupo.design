@@ -42,40 +42,10 @@ html {
 
 .projects {
   display: inherit;
-  position: absolute;
-}
-
-.polaroid {
-  margin: 0;
-  position: absolute;
-  width: 300px;
-  background-color: #fff;
-  box-shadow: 1px 4px 11px rgba(0, 0, 0, .5);
-  transition: all 300ms linear;
 }
 
 .polaroid > img {
-  display: block;
-  width: 100%;
-}
-
-.polaroid:nth-child(1) {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.polaroid:nth-child(2) {
-}
-
-.polaroid:nth-child(3) {
-}
-
-.polaroid:nth-child(4) {
-}
-
-.polaroid:nth-child(5) {
-
+  max-width: 100%;
 }
 
 footer {
@@ -118,6 +88,10 @@ footer {
     display: inherit;
   }
 
+  .polaroid {
+    display: inline-block;
+    max-width: 49%;
+  }
 
 }
 
@@ -166,7 +140,6 @@ footer {
 
   .polaroid {
     margin: 0;
-    position: absolute;
     width: 300px;
     background-color: #fff;
     box-shadow: 1px 4px 11px rgba(0, 0, 0, .5);
@@ -175,7 +148,7 @@ footer {
 
   .polaroid > img {
     display: block;
-    width: 100%;
+    max-width: 100%;
   }
 
   .polaroid:nth-child(1) {

@@ -44,17 +44,15 @@ html {
 }
 
 .placeholder {
-  max-width: 45%;
-  display: inline;
-}
-
-.placeholder-left {
-  max-width: 45%;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 2em;
 }
 
 footer {
   background-color: #fff;
   top: 100px;
+  text-align: center;
 }
 
 
@@ -96,6 +94,11 @@ footer {
 
   .bio2 {
     display: inherit;
+    position: relative;
+  }
+
+  .placeholder {
+    max-width: 49%;
     position: relative;
   }
 
