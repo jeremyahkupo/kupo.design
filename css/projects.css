@@ -20,13 +20,15 @@ html {
 }
 
 .home:hover {
-  fill: red;
+  fill: #d9b0bc;
 }
 
 
 .quotebook1 {
   position: absolute;
-  width: 320px;
+  width: 550px;
+  left: -100px;
+  top: 140px;
 }
 
 .qb-logo {
@@ -38,8 +40,9 @@ html {
 
 .quotebook2 {
   position: relative;
-  bottom: 50px;
-  width: 320px;
+  width: 550px;
+  left: -115px;
+  top: -100px;
 }
 
 .projects {
@@ -78,27 +81,32 @@ footer {
     height: 67px;
     position: absolute;
     fill: black;
-    left: -65px;
+    left: -38px;
     top: -1px;
   }
 
+  .header {
+    max-height: 600px;
+  }
+
   .quotebook1 {
+    width: 100%;
     display: block;
     position: relative;
     margin: auto;
-    left: 130px;
+    left: 95px;
+    top: -75px;
   }
 
   .qb-logo {
     padding-top: 0px;
-    bottom: 30px;
-    width: 300px;
+    bottom: 180px;
+    width: 70%;
   }
 
   .quotebook2 {
-    display: block;
-    margin: auto;
-    bottom: 80px;
+    width: 100%;
+    top: -315px;
     right: 130px;
   }
 
@@ -128,7 +136,7 @@ footer {
   }
 
   .header {
-    height: 800px;
+    max-height: 800px;
   }
 
   .home {
@@ -136,29 +144,28 @@ footer {
     width: 300px;
     height: 74px;
     fill: black;
-    left: -10px;
+    left: -80px;
   }
 
 
   .quotebook1 {
-    width: 50%;
+    width: 80%;
     display: block;
     position: relative;
     margin: auto;
     left: 140px;
+    top: -93px;
   }
 
   .qb-logo {
     padding-top: 0px;
-    bottom: 38px;
-    width: 300px;
+    bottom: 220px;
+    width: 400px;
   }
 
   .quotebook2 {
-    width: 50%;
-    display: block;
-    margin: auto;
-    bottom: 80px;
+    width: 80%;
+    top: -380px;
     right: 140px;
   }
 
