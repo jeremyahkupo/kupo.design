@@ -43,12 +43,6 @@ html {
   display: none;
 }
 
-footer {
-  background-color: #fff;
-}
-
-
-
 @media only screen and (min-width: 38em) {
 
   html {
@@ -87,6 +81,7 @@ footer {
 
   .bio2 {
     display: inherit;
+    position: relative;
   }
 
 
@@ -108,6 +103,8 @@ footer {
     display: block;
     position: absolute;
     width: 100px;
+    padding: 0;
+    margin: 0;
   }
 
   .quotebook1 {
