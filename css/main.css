@@ -140,6 +140,7 @@ footer {
 
   .polaroid {
     margin: 0;
+    position: absolute;
     width: 300px;
     background-color: #fff;
     box-shadow: 1px 4px 11px rgba(0, 0, 0, .5);
