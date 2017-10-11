@@ -4,7 +4,7 @@ html {
   max-width: 400px;
   margin: auto;
   background-color: #f9f9f9;
-  padding-top: 1em;
+  padding: 1.5em;
 }
 
 .home {
@@ -20,14 +20,14 @@ html {
 
 .qb-logo {
   position: relative;
-  padding-top: 200px;
+  padding-top: 212px;
   z-index: 1;
   width: 320px;
 }
 
 .quotebook2 {
   position: relative;
-  bottom: 43px;
+  bottom: 50px;
   width: 320px;
 }
 
@@ -43,6 +43,21 @@ html {
   display: none;
 }
 
+.placeholder {
+  max-width: 45%;
+  display: inline;
+}
+
+.placeholder-left {
+  max-width: 45%;
+}
+
+footer {
+  background-color: #fff;
+  top: 100px;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -52,7 +67,7 @@ html {
   .home {
     display: block;
     position: absolute;
-    width: 50px;
+    width: 70px;
   }
 
   .quotebook1 {
