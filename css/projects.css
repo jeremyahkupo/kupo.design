@@ -121,6 +121,7 @@ footer {
   .bio2 {
     display: inherit;
     position: relative;
+    padding-bottom: 50px;
   }
 
   .placeholder {
@@ -140,7 +141,7 @@ footer {
   }
 
   .header {
-    max-height: 800px;
+    max-height: 750px;
   }
 
   .home {
