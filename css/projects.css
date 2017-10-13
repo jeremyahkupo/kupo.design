@@ -44,7 +44,7 @@ html {
 .quotebook2 {
   position: relative;
   width: 400px;
-  left: -24px;
+  left: -34px;
   top: -55px;
 }
 
@@ -141,7 +141,7 @@ footer {
   }
 
   .header {
-    max-height: 900px;
+    max-height: 750px;
   }
 
   .home {
