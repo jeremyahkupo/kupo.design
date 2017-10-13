@@ -90,16 +90,16 @@ footer {
   }
 
   .header {
-    max-height: 700px;
+    max-height: 650px;
   }
 
   .quotebook1 {
-    width: 100%;
+    width: 90%;
     display: block;
     position: relative;
     margin: auto;
-    left: 65px;
-    top: -15px;
+    left: 45px;
+    top: -13px;
   }
 
   .qb-logo {
@@ -109,7 +109,7 @@ footer {
   }
 
   .quotebook2 {
-    width: 100%;
+    width: 90%;
     top: -150px;
     right: 130px;
   }
@@ -154,12 +154,12 @@ footer {
 
 
   .quotebook1 {
-    width: 80%;
+    width: 65%;
     display: block;
     position: relative;
     margin: auto;
     left: 140px;
-    top: -18px;
+    top: -14px;
   }
 
   .qb-logo {
@@ -169,7 +169,7 @@ footer {
   }
 
   .quotebook2 {
-    width: 80%;
+    width: 65%;
     top: -170px;
     right: 140px;
   }
