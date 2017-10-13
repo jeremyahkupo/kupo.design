@@ -29,9 +29,9 @@ html {
 
 .quotebook1 {
   position: absolute;
-  width: 550px;
-  left: -100px;
-  top: 140px;
+  width: 400px;
+  left: -70px;
+  top: 210px;
 }
 
 .qb-logo {
@@ -43,9 +43,9 @@ html {
 
 .quotebook2 {
   position: relative;
-  width: 500px;
-  left: -60px;
-  top: -125px;
+  width: 400px;
+  left: -24px;
+  top: -55px;
 }
 
 .projects {
@@ -90,7 +90,7 @@ footer {
   }
 
   .header {
-    max-height: 600px;
+    max-height: 700px;
   }
 
   .quotebook1 {
@@ -98,19 +98,19 @@ footer {
     display: block;
     position: relative;
     margin: auto;
-    left: 95px;
-    top: -75px;
+    left: 65px;
+    top: -15px;
   }
 
   .qb-logo {
     padding-top: 0px;
-    bottom: 180px;
+    bottom: 80px;
     width: 70%;
   }
 
   .quotebook2 {
     width: 100%;
-    top: -315px;
+    top: -150px;
     right: 130px;
   }
 
@@ -141,7 +141,7 @@ footer {
   }
 
   .header {
-    max-height: 750px;
+    max-height: 900px;
   }
 
   .home {
@@ -159,18 +159,18 @@ footer {
     position: relative;
     margin: auto;
     left: 140px;
-    top: -95px;
+    top: -18px;
   }
 
   .qb-logo {
     padding-top: 0px;
-    bottom: 220px;
+    bottom: 90px;
     width: 400px;
   }
 
   .quotebook2 {
     width: 80%;
-    top: -380px;
+    top: -170px;
     right: 140px;
   }
 
