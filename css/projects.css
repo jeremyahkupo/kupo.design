@@ -30,7 +30,7 @@ html {
 .quotebook1 {
   position: absolute;
   width: 400px;
-  left: -70px;
+  left: -55px;
   top: 210px;
 }
 
@@ -43,8 +43,8 @@ html {
 
 .quotebook2 {
   position: relative;
-  width: 400px;
-  left: -34px;
+  width: 350px;
+  left: -4px;
   top: -55px;
 }
 
