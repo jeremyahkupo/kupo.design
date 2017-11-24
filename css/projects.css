@@ -67,11 +67,6 @@ html {
   padding-bottom: 2em;
 }
 
-footer {
-  background-color: #fff;
-  text-align: center;
-  font-size: 0.75rem;
-}
 
 
 @media only screen and (min-width: 38em) {
