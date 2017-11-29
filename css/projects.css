@@ -26,7 +26,6 @@ html {
   max-height: 670px;
 }
 
-
 .quotebook1 {
   position: absolute;
   width: 400px;
@@ -34,9 +33,9 @@ html {
   top: 210px;
 }
 
-.qb-logo {
+.quotebook-logo {
   position: relative;
-  padding-top: 240px;
+  padding-top: 165px;
   z-index: 1;
   width: 320px;
 }
@@ -61,13 +60,11 @@ html {
   display: none;
 }
 
-.placeholder {
+.mockup1, .mockup2, .mockup3, .mockup4 {
   max-width: 100%;
   position: relative;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
-
-
 
 @media only screen and (min-width: 38em) {
 
@@ -97,7 +94,7 @@ html {
     top: -13px;
   }
 
-  .qb-logo {
+  .quotebook-logo {
     padding-top: 0px;
     bottom: 80px;
     width: 70%;
@@ -119,11 +116,14 @@ html {
     padding-bottom: 50px;
   }
 
-  .placeholder {
+  .mockup1, .mockup2, .mockup3, .mockup4 {
     max-width: 49%;
     position: relative;
   }
 
+  .mockup2, .mockup3 {
+    padding-bottom: 5em;
+  }
 
 }
 
@@ -147,7 +147,6 @@ html {
     left: -35px;
   }
 
-
   .quotebook1 {
     width: 65%;
     display: block;
@@ -157,7 +156,7 @@ html {
     top: -14px;
   }
 
-  .qb-logo {
+  .quotebook-logo {
     padding-top: 0px;
     bottom: 90px;
     width: 400px;
