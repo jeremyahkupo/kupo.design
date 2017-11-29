@@ -51,45 +51,6 @@ html {
 
 /* Footer */
 
-.footer {
-  background-size: 48px;
-  background-color: #fff;
-}
-
-.footer a {
-  padding: 30px 20px 30px 0px;
-  color: #000;
-}
-
-.footer a:hover, .footer a:focus {
-  color: #53356e;
-  outline: 0;
-}
-
-.footer .copyright {
-  color: #000;
-  font-weight: 100;
-  font-size: 60%;
-}
-
-.footer .address {
-  color: #000;
-  font-weight: 100;
-  display: inline-block;
-  padding: 0px 0px 0px 30px;
-  text-align: left;
-  margin: 0;
-}
-
-.footer .contact {
-  text-decoration: none;
-  color: #000;
-  font-weight: 100;
-  display: inline-block;
-  text-align: left;
-  margin: 0;
-}
-
 /* End Footer */
 
 
