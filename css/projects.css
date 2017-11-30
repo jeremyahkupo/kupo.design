@@ -63,7 +63,7 @@ html {
 .mockup1, .mockup2, .mockup3, .mockup4 {
   max-width: 100%;
   position: relative;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -117,7 +117,7 @@ html {
   }
 
   .mockup1, .mockup2, .mockup3, .mockup4 {
-    max-width: 75%;
+    max-width: 100%;
     position: relative;
   }
 
@@ -168,5 +168,11 @@ html {
     top: -170px;
     right: 140px;
   }
+
+  .mockup1, .mockup2, .mockup3, .mockup4 {
+    max-width: 75%;
+    position: relative;
+  }
+
 
 }
