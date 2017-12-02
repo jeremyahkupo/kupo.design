@@ -1,0 +1,48 @@
+:root {
+  --color-primary: green;
+  --color-primary-light: #red;
+  --color-secondary: #5b9bc1;
+  --color-secondary-light: #9cb8ce;
+
+  --font-primary: "playfair-display", serif;
+  --font-secondary: "soleil", sans-serif;
+
+}
+
+html {
+  font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: var(--font-primary);
+}
+
+p {
+  color: var(--font-secondary);
+}
+
+.tera {
+  font-family: var(--font-secondary);
+}
+
+a {
+  font-weight: bold;
+  color: #6268af;
+  text-decoration: none;
+}
+
+ul {
+  font-weight: 200;
+}
+
+ol {
+  font-weight: 200;
+}
+
+dl {
+  font-weight: 200;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}

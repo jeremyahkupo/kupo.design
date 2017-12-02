@@ -1,0 +1,173 @@
+html {
+  font: normal 100%/1.3;
+  font-family: "Playfair Display";
+  max-width: 400px;
+  margin: auto;
+  background-color: #f9f9f9;
+  padding: 1.5em;
+}
+
+.home {
+  width: 20%;
+  height: 4%;
+  fill: black;
+  top: 27px;
+}
+
+.home:hover {
+  fill: #d9b0bc;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.header {
+  max-height: 670px;
+}
+
+.quotebook1 {
+  position: absolute;
+  width: 400px;
+  left: -55px;
+  top: 210px;
+}
+
+.quotebook-logo {
+  position: relative;
+  padding-top: 165px;
+  z-index: 1;
+  width: 320px;
+}
+
+.quotebook2 {
+  position: relative;
+  width: 350px;
+  left: -4px;
+  top: -55px;
+}
+
+.projects {
+  display: none;
+}
+
+.bio1 {
+  display: inherit;
+  padding-top: 2em;
+}
+
+.bio2 {
+  display: none;
+}
+
+.mockup1, .mockup2, .mockup3, .mockup4 {
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    max-width: 580px;
+  }
+
+  .home {
+    width: 140px;
+    height: 29px;
+    position: absolute;
+    fill: black;
+    left: -32px;
+    top: -1px;
+  }
+
+  .header {
+    max-height: 650px;
+  }
+
+  .quotebook1 {
+    width: 90%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 45px;
+    top: -13px;
+  }
+
+  .quotebook-logo {
+    padding-top: 0px;
+    bottom: 80px;
+    width: 70%;
+  }
+
+  .quotebook2 {
+    width: 90%;
+    top: -150px;
+    right: 130px;
+  }
+
+  .bio1 {
+    display: none;
+  }
+
+  .bio2 {
+    display: inherit;
+    position: relative;
+    padding-bottom: 50px;
+  }
+
+  .mockup1, .mockup2, .mockup3, .mockup4 {
+    max-width: 100%;
+    position: relative;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .header {
+    max-height: 750px;
+  }
+
+  .home {
+    display: block;
+    width: 150px;
+    height: 28px;
+    fill: black;
+    left: -35px;
+  }
+
+  .quotebook1 {
+    width: 65%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 140px;
+    top: -14px;
+  }
+
+  .quotebook-logo {
+    padding-top: 0px;
+    bottom: 90px;
+    width: 400px;
+  }
+
+  .quotebook2 {
+    width: 65%;
+    top: -170px;
+    right: 140px;
+  }
+
+  .mockup1, .mockup2, .mockup3, .mockup4 {
+    max-width: 75%;
+    position: relative;
+  }
+
+
+}
