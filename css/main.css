@@ -51,6 +51,51 @@ html {
 
 /* Footer */
 
+.footer {
+  background-size: 48px;
+}
+
+.footer a {
+  padding: 0px 25px;
+  color: #000;
+}
+
+.footer a:hover, .footer a:focus {
+  color: #54366e;
+  outline: 0;
+}
+
+.icon {
+  display: block;
+}
+
+.footer .copyright {
+  color: #000;
+  font-weight: 100;
+  font-size: 60%;
+  margin: 0;
+}
+
+.footer .information {
+  padding: 0;
+}
+
+.footer .address {
+  color: #000;
+  font-weight: 100;
+  display: inline-block;
+  padding: 30px;
+  margin: 0;
+}
+
+.footer .contact {
+  color: #000;
+  font-weight: 100;
+  display: inline-block;
+  padding: 30px;
+  margin: 0;
+}
+
 /* End Footer */
 
 
