@@ -1,16 +1,16 @@
 :root {
-  --color-primary: green;
-  --color-primary-light: #red;
+  --color-primary: #54366e;
+  --color-primary-light: red;
   --color-secondary: #5b9bc1;
-  --color-secondary-light: #9cb8ce;
+  --color-secondary-light: #f9f9f9;
 
-  --font-primary: "playfair-display", serif;
-  --font-secondary: "soleil", sans-serif;
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Georgia", sans-serif;
 
 }
 
 html {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 h1, h2, h3, h4, h5, h6, {
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, {
 }
 
 p {
-  color: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .tera {
