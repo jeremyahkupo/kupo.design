@@ -17,7 +17,7 @@ html {
 }
 
 .home:hover {
-  fill: #d9b0bc;
+  fill: var(--color-primary);
 }
 
 .wrapper {
@@ -178,13 +178,14 @@ html {
 /* MDNA */
 
 .mdna .home:hover {
-  fill: #dc001e;
+  fill: var(--color-primary);
 }
 
 .mdna .project-logo {
-  bottom: 60px;
+  bottom: 90px;
+  color: #08ff14;
 }
 
 .mdna .img2 {
-  top: -100px;
+  top: -150px;
 }
