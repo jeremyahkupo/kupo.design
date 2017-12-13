@@ -36,6 +36,7 @@ html {
 }
 
 .project-logo {
+  color: #d9b0bc;
   position: relative;
   padding-top: 165px;
   z-index: 1;
