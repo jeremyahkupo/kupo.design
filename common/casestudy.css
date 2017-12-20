@@ -193,3 +193,11 @@ html {
 .mdna .mockup2 {
   bottom: 100px;
 }
+
+
+/* illustration */
+
+.illustration .project-logo {
+  bottom: 90px;
+  color: blue;
+}
