@@ -63,7 +63,7 @@ html {
   display: none;
 }
 
-.mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
+.mockup1, .mockup2, .mockup3, .mockup4, .mockup5, .mockup6 {
   max-width: 100%;
   position: relative;
   padding-bottom: 2em;
@@ -119,7 +119,7 @@ html {
     padding-bottom: 50px;
   }
 
-  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
+  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5, .mockup6 {
     max-width: 100%;
     position: relative;
   }
@@ -167,7 +167,7 @@ html {
     right: 140px;
   }
 
-  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
+  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5, .mockup6 {
     max-width: 75%;
     position: relative;
   }
@@ -184,10 +184,6 @@ html {
 .mdna .project-logo {
   bottom: 90px;
   color: #08ff14;
-}
-
-.mdna .img2 {
-  top: -150px;
 }
 
 .mdna .mockup2 {
