@@ -47,6 +47,7 @@ html {
   max-width: 100%;
 }
 
+
 /* Footer */
 
 .footer {
@@ -94,8 +95,6 @@ html {
   margin: 0;
   text-decoration: none;
 }
-
-/* End Footer */
 
 
 @media only screen and (min-width: 38em) {
@@ -214,6 +213,13 @@ html {
     z-index: 4;
     left: 50px;
     top: 100px;
+  }
+
+  .casestudy:nth-child(4) {
+    transform: rotate(7deg);
+    z-index: 0;
+    left: 100px;
+    top: 380px;
   }
 
   .casestudy:hover {
