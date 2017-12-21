@@ -63,10 +63,33 @@ html {
   display: none;
 }
 
-.mockup1, .mockup2, .mockup3, .mockup4, .mockup5, .mockup6 {
+.mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
   max-width: 100%;
   position: relative;
   padding-bottom: 2em;
+}
+
+.footer {
+  top: 100px;
+}
+
+/* isometric */
+
+.iso1 {
+  position: absolute;
+  width: 320px;
+}
+
+.illustration .project-logo {
+  bottom: 0px;
+  color: purple;
+  width: 90%;
+}
+
+.iso2 {
+  position: relative;
+  bottom: 77px;
+  width: 320px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -119,9 +142,31 @@ html {
     padding-bottom: 50px;
   }
 
-  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5, .mockup6 {
+  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
     max-width: 100%;
     position: relative;
+  }
+
+  /* isometric */
+
+  .iso1 {
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 130px;
+  }
+
+  .illustration .project-logo {
+    bottom: 81px;
+    color: purple;
+    width: 89%;
+  }
+
+  .iso2 {
+    display: block;
+    margin: auto;
+    top: -155px;
+    right: 130px;
   }
 
 }
@@ -167,9 +212,39 @@ html {
     right: 140px;
   }
 
-  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5, .mockup6 {
+  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
     max-width: 75%;
     position: relative;
+  }
+
+  /* isometric */
+
+  .iso1 {
+    width: 70%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 135px;
+    z-index: 1
+  }
+
+  .illustration .project-logo {
+    bottom: 200px;
+    color: purple;
+    width: 90%;
+  }
+
+  .iso2 {
+    width: 70%;
+    display: block;
+    margin: auto;
+    top: -393px;
+    right: 135px;
+    z-index: 0;
+  }
+
+  .mockup1 {
+    max-width: 100%;
   }
 
 
@@ -188,12 +263,4 @@ html {
 
 .mdna .mockup2 {
   bottom: 100px;
-}
-
-
-/* illustration */
-
-.illustration .project-logo {
-  bottom: 90px;
-  color: blue;
 }
