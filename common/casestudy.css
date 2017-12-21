@@ -209,7 +209,7 @@ html {
   .img2 {
     width: 65%;
     top: -170px;
-    right: 140px;
+    left: -140px;
   }
 
   .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
