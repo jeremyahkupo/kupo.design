@@ -73,6 +73,31 @@ html {
   top: 100px;
 }
 
+/* MDNA */
+
+.mdna .img1 {
+  position: absolute;
+  width: 400px;
+  left: -55px;
+  top: 340px;
+}
+
+.mdna .project-logo {
+  color: #d9b0bc;
+  position: relative;
+  padding-top: 310px;
+  z-index: 1;
+  width: 320px;
+}
+
+.mdna .img2 {
+  position: relative;
+  width: 350px;
+  left: -4px;
+  top: -160px;
+}
+
+
 /* isometric */
 
 .iso1 {
@@ -147,6 +172,31 @@ html {
     position: relative;
   }
 
+  /* MDNA */
+
+.mdna .img1 {
+    width: 90%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 45px;
+    top: -13px;
+  }
+
+.mdna .project-logo {
+    padding-top: 0px;
+    bottom: 80px;
+    width: 70%;
+  }
+
+.mdna .img2 {
+    width: 90%;
+    top: -150px;
+    right: 130px;
+  }
+
+
+
   /* isometric */
 
   .iso1 {
@@ -215,6 +265,29 @@ html {
   .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
     max-width: 75%;
     position: relative;
+  }
+
+  /* MDNA */
+
+.mdna .img1 {
+    width: 65%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 140px;
+    top: -14px;
+  }
+
+.mdna .project-logo {
+    padding-top: 0px;
+    bottom: 90px;
+    width: 400px;
+  }
+
+.mdna .img2 {
+    width: 65%;
+    top: -170px;
+    left: -140px;
   }
 
   /* isometric */
