@@ -320,6 +320,14 @@ html {
     max-width: 100%;
   }
 
+  /* uTan */
+
+  .utan .project-logo {
+    bottom: 200px;
+    color: #78aa6d;
+    width: 90%;
+  }
+
 
 }
 
