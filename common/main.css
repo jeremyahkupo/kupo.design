@@ -113,15 +113,16 @@ html {
 
 /* 404 page */
 
-.home {
-  width: 20%;
-  height: 4%;
-  fill: black;
-  top: 27px;
+.iso1 {
+  position: absolute;
+  width: 320px;
 }
 
-.home:hover {
-  fill: var(--color-primary);
+
+.iso2 {
+  position: relative;
+  bottom: 77px;
+  width: 320px;
 }
 
 .logo-404 {
