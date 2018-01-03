@@ -111,6 +111,19 @@ html {
   text-decoration: none;
 }
 
+/* 404 page */
+
+.home {
+  width: 20%;
+  height: 4%;
+  fill: black;
+  top: 27px;
+}
+
+.home:hover {
+  fill: var(--color-primary);
+}
+
 
 @media only screen and (min-width: 38em) {
 
@@ -165,6 +178,17 @@ html {
   .icon-social {
     width: 48px;
     height: 48px;
+  }
+
+  /* 404 page */
+
+  .home {
+    width: 140px;
+    height: 29px;
+    position: absolute;
+    fill: black;
+    left: -32px;
+    top: -1px;
   }
 
 
@@ -258,6 +282,16 @@ html {
     transform: rotate(0deg);
     z-index: 100;
     box-shadow: 3px 3px 30px #000;
+  }
+
+  /* 404 page */
+  
+  .home {
+    display: block;
+    width: 150px;
+    height: 28px;
+    fill: black;
+    left: -35px;
   }
 
 }
