@@ -29,11 +29,13 @@ html {
 .bio1 {
   display: inherit;
   padding: 2em;
+  text-align: left;
 }
 
 .bio2 {
   display: none;
   margin: 0;
+  text-align: left;
 }
 
 /* Portfolio Pieces */
@@ -56,6 +58,10 @@ html {
 .footer a {
   margin: 0px 15px;
   color: #000;
+}
+
+.icon-nav {
+  padding-bottom: 1.5em;
 }
 
 .icon-email {
@@ -134,10 +140,12 @@ html {
 
   .bio1 {
     display: none;
+    text-align: left;
   }
 
   .bio2 {
     display: inherit;
+    text-align: left;
   }
 
   .casestudy {
@@ -150,8 +158,8 @@ html {
   }
 
   .icon-email {
-    width: 96px;
-    height: 96px;
+    width: 86px;
+    height: 86px;
   }
 
   .icon-social {
