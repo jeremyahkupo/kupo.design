@@ -106,7 +106,7 @@ html {
   width: 320px;
 }
 
-.illustration .error .project-logo {
+.illustration .project-logo {
   bottom: 0px;
   color: purple;
   width: 90%;
@@ -127,7 +127,7 @@ html {
 /* 404 page */
 
 .error .logo-404 {
-  color: yellow;
+  color: purple;
   width: 90%;
 }
 
@@ -222,7 +222,6 @@ html {
 
   .illustration .project-logo {
     bottom: 75px;
-    color: purple;
     width: 89%;
   }
 
@@ -296,11 +295,11 @@ html {
     top: -14px;
   }
 
-.mdna .project-logo {
-    padding-top: 0px;
+  .mdna .project-logo {
     bottom: 90px;
-    width: 400px;
+    color: #08ff14;
   }
+
 
 .mdna .img2 {
     width: 65%;
@@ -321,7 +320,6 @@ html {
 
   .illustration .project-logo {
     bottom: 200px;
-    color: purple;
     width: 90%;
   }
 
@@ -351,15 +349,4 @@ html {
     bottom: 200px;
   }
 
-}
-
-/* MDNA */
-
-.mdna .home:hover {
-  fill: var(--color-primary);
-}
-
-.mdna .project-logo {
-  bottom: 90px;
-  color: #08ff14;
 }
