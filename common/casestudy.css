@@ -100,7 +100,7 @@ html {
 
 /* isometric */
 
-.iso1 {
+.error, .illustration, .iso1 {
   position: absolute;
   width: 320px;
 }
@@ -111,7 +111,7 @@ html {
   width: 90%;
 }
 
-.iso2 {
+.error, .illustration, .iso2 {
   position: relative;
   bottom: 77px;
   width: 320px;
