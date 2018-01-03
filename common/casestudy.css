@@ -154,6 +154,10 @@ html {
     max-height: 650px;
   }
 
+  .mdna .header {
+    max-height: 650px;
+  }
+
   .bio1 {
     display: none;
   }
@@ -252,6 +256,10 @@ html {
   }
 
   .header {
+    max-height: 750px;
+  }
+
+  .mdna .header {
     max-height: 750px;
   }
 
