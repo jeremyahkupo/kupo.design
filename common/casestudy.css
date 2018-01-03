@@ -97,10 +97,9 @@ html {
   top: -160px;
 }
 
-
 /* isometric */
 
-.error, .illustration, .iso1 {
+.iso1 {
   position: absolute;
   width: 320px;
 }
@@ -111,7 +110,7 @@ html {
   width: 90%;
 }
 
-.error, .illustration, .iso2 {
+.iso2 {
   position: relative;
   bottom: 77px;
   width: 320px;
@@ -343,4 +342,13 @@ html {
 .mdna .project-logo {
   bottom: 90px;
   color: #08ff14;
+}
+
+/* 404 page */
+
+.error .logo-404 {
+  padding-top: 0px;
+  bottom: 200px;
+  width: 400px;
+  color: blue;
 }
