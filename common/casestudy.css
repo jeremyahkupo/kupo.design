@@ -28,6 +28,10 @@ html {
   max-height: 670px;
 }
 
+.mdna .header {
+  max-height: 560px;
+}
+
 .projects {
   display: none;
 }
