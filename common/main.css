@@ -124,6 +124,10 @@ html {
   fill: var(--color-primary);
 }
 
+.logo-404 {
+  color: red;
+}
+
 
 @media only screen and (min-width: 38em) {
 
@@ -285,7 +289,7 @@ html {
   }
 
   /* 404 page */
-  
+
   .home {
     display: block;
     width: 150px;
