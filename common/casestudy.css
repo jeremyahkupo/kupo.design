@@ -28,28 +28,6 @@ html {
   max-height: 670px;
 }
 
-.img1 {
-  position: absolute;
-  width: 400px;
-  left: -55px;
-  top: 210px;
-}
-
-.project-logo {
-  color: #d9b0bc;
-  position: relative;
-  padding-top: 165px;
-  z-index: 1;
-  width: 320px;
-}
-
-.img2 {
-  position: relative;
-  width: 350px;
-  left: -4px;
-  top: -55px;
-}
-
 .projects {
   display: none;
 }
@@ -73,12 +51,36 @@ html {
   top: 100px;
 }
 
+/* Quotebook */
+
+.img1 {
+  position: absolute;
+  width: 350px;
+  left: -5px;
+  top: 210px;
+}
+
+.project-logo {
+  color: #d9b0bc;
+  position: relative;
+  padding-top: 165px;
+  z-index: 1;
+  width: 320px;
+}
+
+.img2 {
+  position: relative;
+  width: 350px;
+  left: -4px;
+  top: -65px;
+}
+
 /* MDNA */
 
 .mdna .img1 {
   position: absolute;
-  width: 400px;
-  left: -55px;
+  width: 340px;
+  left: 14px;
   top: 340px;
 }
 
@@ -148,27 +150,6 @@ html {
     max-height: 650px;
   }
 
-  .img1 {
-    width: 90%;
-    display: block;
-    position: relative;
-    margin: auto;
-    left: 45px;
-    top: -13px;
-  }
-
-  .project-logo {
-    padding-top: 0px;
-    bottom: 80px;
-    width: 70%;
-  }
-
-  .img2 {
-    width: 90%;
-    top: -150px;
-    right: 130px;
-  }
-
   .bio1 {
     display: none;
   }
@@ -184,15 +165,38 @@ html {
     position: relative;
   }
 
-  /* MDNA */
+/* Quotebook */
+
+.img1 {
+  width: 83%;
+  display: block;
+  position: relative;
+  margin: auto;
+  left: 75px;
+  top: -13px;
+}
+
+.project-logo {
+  padding-top: 0px;
+  bottom: 80px;
+  width: 70%;
+}
+
+.img2 {
+  width: 90%;
+  top: -150px;
+  left: -40px;
+}
+
+/* MDNA */
 
 .mdna .img1 {
-    width: 90%;
+    width: 83%;
     display: block;
     position: relative;
     margin: auto;
-    left: 45px;
-    top: -13px;
+    left: 75px;
+    top: -15px;
   }
 
 .mdna .project-logo {
@@ -202,9 +206,9 @@ html {
   }
 
 .mdna .img2 {
-    width: 90%;
-    top: -150px;
-    right: 130px;
+  width: 90%;
+  top: -160px;
+  left: -40px;
   }
 
   /* isometric */
@@ -277,7 +281,7 @@ html {
   }
 
   .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
-    max-width: 75%;
+    max-width: 100%;
     position: relative;
   }
 
