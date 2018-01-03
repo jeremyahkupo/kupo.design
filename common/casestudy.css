@@ -104,7 +104,7 @@ html {
   width: 320px;
 }
 
-.illustration .project-logo {
+.illustration .error .project-logo {
   bottom: 0px;
   color: purple;
   width: 90%;
@@ -120,6 +120,13 @@ html {
 
 .utan .project-logo {
   color: #78aa6d;
+}
+
+/* 404 page */
+
+.error .logo-404 {
+  color: yellow;
+  width: 90%;
 }
 
 @media only screen and (min-width: 38em) {
@@ -200,8 +207,6 @@ html {
     right: 130px;
   }
 
-
-
   /* isometric */
 
   .iso1 {
@@ -224,6 +229,10 @@ html {
     right: 130px;
   }
 
+  /* 404 page */
+  .error .logo-404 {
+    bottom: 75px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -347,8 +356,5 @@ html {
 /* 404 page */
 
 .error .logo-404 {
-  padding-top: 0px;
   bottom: 200px;
-  width: 400px;
-  color: blue;
 }
