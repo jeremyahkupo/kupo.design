@@ -344,6 +344,13 @@ html {
     bottom: 200px;
     width: 90%;
   }
+
+  /* 404 page */
+
+  .error .logo-404 {
+    bottom: 200px;
+  }
+
 }
 
 /* MDNA */
@@ -355,10 +362,4 @@ html {
 .mdna .project-logo {
   bottom: 90px;
   color: #08ff14;
-}
-
-/* 404 page */
-
-.error .logo-404 {
-  bottom: 200px;
 }

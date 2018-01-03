@@ -221,31 +221,35 @@ html {
     max-width: 100%;
   }
 
+/* utan */
   .casestudy:nth-child(1) {
     transform: rotate(-6deg);
     z-index: 1;
-    left: 500px;
-    top: 400px;
+    left: 50px;
+    top: 80px;
     }
 
+/* mdna */
   .casestudy:nth-child(2) {
-    transform: rotate(9deg);
+    transform: rotate(10deg);
     z-index: 2;
-    left: 300px;
-    top: 240px;
+    left: 280px;
+    top: 200px;
   }
 
+/* quotebook */
   .casestudy:nth-child(3) {
-    transform: rotate(-5deg);
-    z-index: 4;
-    left: 50px;
-    top: 100px;
+    transform: rotate(5deg);
+    z-index: 0;
+    left: 90px;
+    top: 370px;
   }
 
+/* isometric */
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
     z-index: 0;
-    left: 100px;
+    left: 500px;
     top: 380px;
   }
 
