@@ -290,7 +290,7 @@ html {
 
   /* 404 page */
 
-  .logo-404 {
+  .error .logo-404 {
     padding-top: 0px;
     bottom: 90px;
     width: 400px;
