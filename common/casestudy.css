@@ -85,10 +85,10 @@ html {
 }
 
 .mdna .project-logo {
-  color: #d9b0bc;
+  color: #08ff14;
   position: relative;
   padding-top: 310px;
-  z-index: 1;
+  bottom: 90px;
   width: 320px;
 }
 
@@ -222,6 +222,7 @@ html {
 
   .illustration .project-logo {
     bottom: 75px;
+    color: purple;
     width: 89%;
   }
 
@@ -295,11 +296,11 @@ html {
     top: -14px;
   }
 
-  .mdna .project-logo {
+.mdna .project-logo {
+    padding-top: 0px;
     bottom: 90px;
-    color: #08ff14;
+    width: 400px;
   }
-
 
 .mdna .img2 {
     width: 65%;
@@ -320,6 +321,7 @@ html {
 
   .illustration .project-logo {
     bottom: 200px;
+    color: purple;
     width: 90%;
   }
 
