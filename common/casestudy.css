@@ -126,18 +126,18 @@ html {
 
 .utan .project-logo {
   color: #78aa6d;
-  bottom: -35px;
+  bottom: 13px;
 }
 
   .utan .iso1 {
-    width: 73%;
-    left: 100px;
+    width: 88%;
+    left: 30px;
   }
 
   .utan .iso2 {
     width: 320px;
     left: 10px;
-    top: -20px;
+    top: -60px;
   }
 
 }
@@ -257,8 +257,9 @@ html {
   /* utan */
 
   .utan .iso1 {
-    width: 63%;
-    left: 130px;
+    width: 73%;
+    left: 90px;
+    top: -8px;
   }
 
   .utan .project-logo {
@@ -266,9 +267,9 @@ html {
   }
 
   .utan .iso2 {
-    width: 70%;
-    left: -80px;
-    top: -180px;
+    width: 75%;
+    left: -57px;
+    top: -150px;
   }
 
   /* 404 page */
@@ -382,19 +383,19 @@ html {
   /* uTan */
 
   .utan .project-logo {
-    bottom: 200px;
+    bottom: 140px;
     width: 90%;
   }
 
   .utan .iso1 {
-    width: 43%;
-    left: 230px;
+    width: 60%;
+    left: 200px;
   }
 
   .utan .iso2 {
     width: 63%;
     left: -150px;
-    top: -240px;
+    top: -200px;
   }
 
 
