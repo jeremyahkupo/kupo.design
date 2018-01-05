@@ -223,8 +223,8 @@ html {
 
 /* utan */
   .casestudy:nth-child(1) {
-    transform: rotate(-6deg);
-    z-index: 1;
+    transform: rotate(4deg);
+    z-index: 9;
     left: 50px;
     top: 80px;
     }
@@ -232,26 +232,34 @@ html {
 /* mdna */
   .casestudy:nth-child(2) {
     transform: rotate(10deg);
-    z-index: 2;
-    left: 280px;
+    z-index: 10;
+    left: 230px;
     top: 200px;
   }
 
 /* quotebook */
   .casestudy:nth-child(3) {
-    transform: rotate(5deg);
-    z-index: 0;
-    left: 90px;
-    top: 370px;
+    transform: rotate(-5deg);
+    z-index: 8;
+    left: 60px;
+    top: 340px;
   }
 
 /* isometric */
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
-    z-index: 0;
-    left: 500px;
-    top: 380px;
+    z-index: 7;
+    left: 400px;
+    top: 340px;
   }
+
+  /* brush painting */
+    .casestudy:nth-child(5) {
+      transform: rotate(-7deg);
+      z-index: 6;
+      left: 400px;
+      top: 80px;
+    }
 
   .casestudy:hover {
     transform: rotate(0deg);
