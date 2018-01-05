@@ -45,7 +45,7 @@ html {
   display: none;
 }
 
-.mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
+.mockup {
   max-width: 100%;
   position: relative;
   padding-bottom: 2em;
@@ -182,7 +182,7 @@ html {
     padding-bottom: 50px;
   }
 
-  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
+  .mockup {
     max-width: 100%;
     position: relative;
   }
@@ -322,7 +322,7 @@ html {
     left: -140px;
   }
 
-  .mockup1, .mockup2, .mockup3, .mockup4, .mockup5 {
+  .mockup {
     max-width: 100%;
     position: relative;
   }
