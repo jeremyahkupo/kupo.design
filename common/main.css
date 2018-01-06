@@ -192,6 +192,10 @@ html {
     width: 100%;
   }
 
+  .logo a:hover {
+    fill: var(--color-primary);
+  }
+
   .jeremy2 {
     width: 70%;
     display: block;
