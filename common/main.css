@@ -62,6 +62,7 @@ html {
 
 .icon-nav {
   padding-bottom: 1.5em;
+  padding-top: 1.5em;
 }
 
 .icon-email {
@@ -190,10 +191,6 @@ html {
     padding-top: 0px;
     bottom: 225px;
     width: 100%;
-  }
-
-  .logo a:hover {
-    fill: var(--color-primary);
   }
 
   .jeremy2 {

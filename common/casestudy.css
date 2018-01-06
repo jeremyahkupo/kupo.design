@@ -14,7 +14,7 @@ html {
   top: 27px;
 }
 
-.home:hover {
+.home:hover, .home-bottom:hover {
   fill: var(--color-primary);
 }
 
@@ -300,6 +300,14 @@ html {
     height: 28px;
     fill: black;
     left: -35px;
+  }
+
+  .home-bottom {
+    display: block;
+    width: 150px;
+    height: 28px;
+    fill: black;
+    text-align: center;
   }
 
   .img1 {
