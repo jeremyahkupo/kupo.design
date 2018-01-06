@@ -30,12 +30,14 @@ html {
   display: inherit;
   padding: 2em;
   text-align: left;
+  font-family: "Raleway", sans-serif;
 }
 
 .bio2 {
   display: none;
   margin: 0;
   text-align: left;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Portfolio Pieces */

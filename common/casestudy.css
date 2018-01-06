@@ -42,6 +42,7 @@ html {
 
 .bio2 {
   display: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .mockup {
@@ -176,7 +177,6 @@ html {
   }
 
   .bio2 {
-    font-family: "Raleway", sans-serif;
     display: inherit;
     position: relative;
     padding-bottom: 50px;
