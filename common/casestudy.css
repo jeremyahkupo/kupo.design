@@ -376,8 +376,8 @@ html {
     z-index: 0;
   }
 
-  .illustration .mockup1 {
-    max-width: 100%;
+  .mockup-final {
+    width: 100%;
   }
 
   /* uTan */
