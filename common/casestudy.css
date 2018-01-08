@@ -38,11 +38,13 @@ html {
   font-family: "Raleway", sans-serif;
   display: inherit;
   padding-top: 2em;
+  font-size: 1.1em;
 }
 
 .bio2 {
   display: none;
   font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
 }
 
 .mockup {
@@ -85,7 +87,7 @@ html {
   position: absolute;
   width: 340px;
   left: 14px;
-  top: 340px;
+  top: 540px;
 }
 
 .mdna .project-logo {
