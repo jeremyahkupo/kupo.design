@@ -15,7 +15,18 @@ html {
   margin-bottom: 50px;
 }
 
-.home:hover, .home-bottom:hover {
+.home svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+.home:focus {
+  outline: 2px solid var(--color-primary);
+}
+
+.home:hover svg, .home-bottom:hover {
   fill: var(--color-primary);
 }
 
@@ -146,6 +157,16 @@ html {
 
   .paint .project-logo {
     color: #d56755;
+  }
+
+  /* Body Shop */
+
+  .body .project-logo {
+    color: yellow;
+  }
+
+  .bodyshop-video {
+    max-width: 100%;
   }
 
 }
@@ -282,6 +303,13 @@ html {
     width: 75%;
     left: -57px;
     top: -150px;
+  }
+
+  /* Body Shop */
+
+  .body .project-logo {
+    width: 90%;
+    bottom: 75px;
   }
 
   /* 404 page */
@@ -430,6 +458,17 @@ html {
 
   .paint .project-logo {
     bottom: 200px;
+  }
+
+  /* Body Shop */
+
+  .body .project-logo {
+    width: 90%;
+    bottom: 200px;
+  }
+
+  .bodyshop-video {
+    
   }
 
 
