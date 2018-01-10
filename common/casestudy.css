@@ -12,6 +12,7 @@ html {
   height: 4%;
   fill: black;
   top: 27px;
+  margin-bottom: 50px;
 }
 
 .home:hover, .home-bottom:hover {
@@ -30,21 +31,21 @@ html {
   max-height: 560px;
 }
 
-.projects {
-  display: none;
+.illustration .header {
+  max-height: 530px;
 }
 
-.bio1 {
-  font-family: "Raleway", sans-serif;
-  display: inherit;
-  padding-top: 2em;
-  font-size: 1.1em;
+.projects {
+  display: none;
 }
 
 .bio2 {
   display: none;
   font-family: "Raleway", sans-serif;
   font-size: 1.1em;
+  display: inherit;
+  position: relative;
+  padding-bottom: 50px;
 }
 
 .mockup {
@@ -63,7 +64,7 @@ html {
   position: absolute;
   width: 350px;
   left: -5px;
-  top: 210px;
+  top: 50px;
 }
 
 .project-logo {
@@ -87,22 +88,21 @@ html {
   position: absolute;
   width: 340px;
   left: 14px;
-  top: 540px;
+  top: 55px;
 }
 
 .mdna .project-logo {
   color: #a4d7c3;
   position: relative;
-  padding-top: 310px;
-  bottom: 90px;
+  padding-top: 165px;
   width: 320px;
 }
 
 .mdna .img2 {
   position: relative;
-  width: 350px;
+  width: 340px;
   left: -4px;
-  top: -160px;
+  top: -60px;
 }
 
 /* isometric */
@@ -120,7 +120,7 @@ html {
 
 .iso2 {
   position: relative;
-  bottom: 77px;
+  bottom: 78px;
   width: 320px;
 }
 
@@ -234,9 +234,9 @@ html {
   }
 
 .mdna .img2 {
-  width: 90%;
+  width: 83%;
   top: -160px;
-  left: -40px;
+  left: -70px;
   }
 
   /* isometric */
@@ -353,7 +353,7 @@ html {
     display: block;
     position: relative;
     margin: auto;
-    left: 140px;
+    left: 150px;
     top: -14px;
   }
 
@@ -366,7 +366,7 @@ html {
 .mdna .img2 {
     width: 65%;
     top: -170px;
-    left: -140px;
+    left: -150px;
   }
 
   /* isometric */
