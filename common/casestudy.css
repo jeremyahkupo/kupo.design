@@ -145,7 +145,7 @@ html {
   /* paint */
 
   .paint .project-logo {
-    color: blue;
+    color: #d56755;
   }
 
 }
@@ -308,6 +308,10 @@ html {
 
   .illustration .header {
     max-height: 700px;
+  }
+
+  .paint .header {
+    max-height: 680px;
   }
 
   .home {

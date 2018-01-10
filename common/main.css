@@ -226,7 +226,7 @@ html {
   .casestudy:nth-child(2) {
     transform: rotate(10deg);
     z-index: 10;
-    left: 280px;
+    left: 300px;
     top: 200px;
   }
 
@@ -242,7 +242,7 @@ html {
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
     z-index: 7;
-    left: 450px;
+    left: 480px;
     top: 330px;
   }
 
@@ -250,7 +250,7 @@ html {
     .casestudy:nth-child(5) {
       transform: rotate(-7deg);
       z-index: 6;
-      left: 500px;
+      left: 530px;
       top: 100px;
     }
 
