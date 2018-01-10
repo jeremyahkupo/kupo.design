@@ -256,12 +256,12 @@ html {
     }
 
     /* bodyshop */
-      .casestudy:nth-child(6) {
-        transform: rotate(-3deg);
-        z-index: 6;
-        left: 290px;
-        top: 30px;
-      }
+    .casestudy:nth-child(6) {
+      transform: rotate(-3deg);
+      z-index: 6;
+      left: 290px;
+      top: 30px;
+    }
 
   .casestudy:hover {
     transform: rotate(0deg);
