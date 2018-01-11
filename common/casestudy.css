@@ -341,8 +341,16 @@ html {
     max-height: 750px;
   }
 
+  .quotebook .bio2 {
+    padding-top: 5em;
+  }
+
   .mdna .header {
-    max-height: 750px;
+    max-height: 800px;
+  }
+
+  .mdna .bio2 {
+    padding-top: 5em;
   }
 
   .illustration .header {
