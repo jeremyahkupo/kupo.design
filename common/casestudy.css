@@ -166,7 +166,12 @@ html {
   }
 
   .bodyshop-video {
-    width: 100%;
+    max-width: 100%;
+  }
+
+  .bodyshop-video {
+    height: 220px;
+    width: 527px;
   }
 
 }
@@ -311,6 +316,12 @@ html {
     width: 90%;
     bottom: 75px;
   }
+
+  .bodyshop-video {
+    height: 350px;
+    width: 527px;
+  }
+
 
   /* 404 page */
   .error .logo-404 {
@@ -465,6 +476,11 @@ html {
   .body .project-logo {
     width: 90%;
     bottom: 200px;
+  }
+
+  .bodyshop-video {
+    height: 500px;
+    width: 900px;
   }
 
   /* 404 page */
