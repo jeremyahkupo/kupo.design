@@ -39,7 +39,7 @@ html {
 
 .projects {
   display: block;
-  min-height: 750px;
+  min-height: 790px;
 }
 
 .casestudy > img {
@@ -235,15 +235,15 @@ html {
   .casestudy:nth-child(3) {
     transform: rotate(-5deg);
     z-index: 8;
-    left: 90px;
-    top: 340px;
+    left: 70px;
+    top: 300px;
   }
 
 /* isometric */
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
     z-index: 7;
-    left: 480px;
+    left: 500px;
     top: 330px;
   }
 
@@ -260,7 +260,15 @@ html {
       transform: rotate(-3deg);
       z-index: 6;
       left: 290px;
-      top: 30px;
+      top: px;
+    }
+
+    /* annual report */
+    .casestudy:nth-child(7) {
+      transform: rotate(3deg);
+      z-index: 7;
+      left: 240px;
+      top: 400px;
     }
 
   .casestudy:hover {
