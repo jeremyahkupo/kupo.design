@@ -46,6 +46,10 @@ html {
   max-height: 530px;
 }
 
+.paint .header {
+  max-height: 530px;
+}
+
 .body .header {
   max-height: 500px;
 }
@@ -213,6 +217,10 @@ html {
 
   .illustration .header {
     max-height: 550px;
+  }
+
+  .paint .header {
+    max-height: 530px;
   }
 
   .bio1 {
