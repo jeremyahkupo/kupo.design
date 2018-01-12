@@ -39,7 +39,7 @@ html {
 
 .projects {
   display: block;
-  min-height: 790px;
+  min-height: 830px;
 }
 
 .casestudy > img {
@@ -243,7 +243,7 @@ html {
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
     z-index: 7;
-    left: 500px;
+    left: 530px;
     top: 330px;
   }
 
@@ -251,7 +251,7 @@ html {
     .casestudy:nth-child(5) {
       transform: rotate(-7deg);
       z-index: 6;
-      left: 530px;
+      left: 550px;
       top: 100px;
     }
 
@@ -263,12 +263,20 @@ html {
       top: px;
     }
 
-    /* annual report */
+    /* liquid */
     .casestudy:nth-child(7) {
       transform: rotate(3deg);
       z-index: 7;
       left: 240px;
       top: 400px;
+    }
+
+    /* 2-22 */
+    .casestudy:nth-child(8) {
+      transform: rotate(-4deg);
+      z-index: 3;
+      left: 525px;
+      top: 500px;
     }
 
   .casestudy:hover {
