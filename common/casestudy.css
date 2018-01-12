@@ -46,6 +46,10 @@ html {
   max-height: 530px;
 }
 
+.body .header {
+  max-height: 500px;
+}
+
 .projects {
   display: none;
 }
@@ -172,6 +176,7 @@ html {
   .bodyshop-video {
     height: 220px;
     width: 527px;
+    font-size: .5em;
   }
 
 }
@@ -358,6 +363,10 @@ html {
   }
 
   .paint .header {
+    max-height: 680px;
+  }
+
+  .body .header {
     max-height: 680px;
   }
 
