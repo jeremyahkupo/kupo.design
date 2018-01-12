@@ -305,6 +305,13 @@ html {
     right: 130px;
   }
 
+  /* paint */
+
+  .paint .project-logo {
+    bottom: 74px;
+  }
+
+
   /* utan */
 
   .utan .iso1 {
@@ -487,6 +494,7 @@ html {
 
   .paint .project-logo {
     bottom: 200px;
+    left: 20px;
   }
 
   /* Body Shop */
