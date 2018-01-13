@@ -265,7 +265,7 @@ html {
 
     /* liquid */
     .casestudy:nth-child(7) {
-      transform: rotate(-3deg);
+      transform: rotate(-4deg);
       z-index: 7;
       left: 240px;
       top: 400px;
