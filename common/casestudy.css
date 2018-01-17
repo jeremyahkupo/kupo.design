@@ -171,6 +171,7 @@ html {
 
   .body .project-logo {
     color: #618ace;
+    bottom: -1px;
   }
 
   .bodyshop-video {
@@ -183,11 +184,11 @@ html {
     font-size: .5em;
   }
 
-
   /* 2-22 */
 
   .perspective .project-logo {
     color: blue;
+    bottom: -1px;
   }
 
 }
