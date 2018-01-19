@@ -2,7 +2,7 @@ html {
   max-width: 400px;
   margin: auto;
   background-color: var(--color-secondary-light);
-    padding-bottom: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .jeremy1 {
@@ -27,9 +27,20 @@ html {
   display: none;
 }
 
+.bio-name {
+  display: inherit;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+}
+
 .bio2 {
   display: inherit;
-  padding: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 3em;
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-size: 1.1em;
