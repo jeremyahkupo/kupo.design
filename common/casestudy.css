@@ -191,6 +191,13 @@ html {
     bottom: -1px;
   }
 
+  /* liquid */
+
+  .liquid .project-logo {
+    color: #ff4252;
+    bottom: -9px;
+  }
+
 }
 
 /* 404 page */
@@ -353,6 +360,12 @@ html {
 
   .perspective .project-logo {
     bottom: 75px;
+  }
+
+  /* liquid */
+
+  .liquid .project-logo {
+    bottom: 65px;
   }
 
 
@@ -528,6 +541,14 @@ html {
     bottom: 200px;
     left: -10px;
   }
+
+  /* liquid */
+
+  .liquid .project-logo {
+    bottom: 200px;
+    left: -10px;
+  }
+
 
   /* 404 page */
 
