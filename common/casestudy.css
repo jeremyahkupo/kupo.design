@@ -54,6 +54,10 @@ html {
   max-height: 520px;
 }
 
+.perspective .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -187,7 +191,7 @@ html {
   /* 2-22 */
 
   .perspective .project-logo {
-    color: #000000;
+    color: #010254;
     bottom: -1px;
   }
 
@@ -236,6 +240,10 @@ html {
 
   .paint .header {
     max-height: 530px;
+  }
+
+  .perspective .header {
+    max-height: 550px;
   }
 
   .bio1 {
@@ -408,6 +416,10 @@ html {
   }
 
   .body .header {
+    max-height: 700px;
+  }
+
+  .perspective .header {
     max-height: 700px;
   }
 
