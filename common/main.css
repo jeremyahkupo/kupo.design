@@ -290,6 +290,14 @@ html {
       top: 500px;
     }
 
+    /* Trekonderoga */
+    .casestudy:nth-child(9) {
+      transform: rotate(-3deg);
+      z-index: 3;
+      left: 280px;
+      top: 580px;
+    }
+
   .casestudy:hover {
     transform: rotate(0deg);
     z-index: 100;
