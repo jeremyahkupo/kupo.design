@@ -58,6 +58,10 @@ html {
   max-height: 530px;
 }
 
+.liquid .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -420,6 +424,10 @@ html {
   }
 
   .perspective .header {
+    max-height: 700px;
+  }
+
+  .liquid .header {
     max-height: 700px;
   }
 
