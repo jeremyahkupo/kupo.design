@@ -39,7 +39,7 @@ html {
 }
 
 .mdna .header {
-  max-height: 460px;
+  max-height: 510px;
 }
 
 .illustration .header {
@@ -412,7 +412,7 @@ html {
   }
 
   .paint .header {
-    max-height: 680px;
+    max-height: 700px;
   }
 
   .body .header {
