@@ -4,7 +4,7 @@ html {
   max-width: 400px;
   margin: auto;
   background-color: #f9f9f9;
-  padding-bottom: 1.5em;
+  padding: 1.5em;
 }
 
 .home {
@@ -512,6 +512,11 @@ html {
     top: -393px;
     right: 135px;
     z-index: 0;
+  }
+
+  .mockup-illustration {
+    width: 1500px;
+    left: 1000px;
   }
 
   /* uTan */
