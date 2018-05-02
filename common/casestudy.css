@@ -206,6 +206,12 @@ html {
     bottom: -9px;
   }
 
+  /* motion reel */
+
+  .motion-reel .project-logo {
+    color: grey;
+  }
+
 }
 
 /* 404 page */
@@ -568,6 +574,12 @@ html {
   .liquid .project-logo {
     bottom: 200px;
     left: -10px;
+  }
+
+  /* motion reel */
+
+  .motion-reel .project-logo {
+    bottom: 200px;
   }
 
 
