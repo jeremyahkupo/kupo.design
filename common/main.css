@@ -50,7 +50,7 @@ html {
 
 .projects {
   display: block;
-  min-height: 870px;
+  min-height: 930px;
 }
 
 .casestudy > img {
@@ -259,15 +259,15 @@ html {
     transform: rotate(7deg);
     z-index: 7;
     left: 530px;
-    top: 330px;
+    top: 300px;
   }
 
-  /* brush painting */
+  /* painting */
     .casestudy:nth-child(5) {
       transform: rotate(-7deg);
       z-index: 6;
       left: 550px;
-      top: 100px;
+      top: 70px;
     }
 
     /* bodyshop */
@@ -290,16 +290,16 @@ html {
     .casestudy:nth-child(8) {
       transform: rotate(4deg);
       z-index: 3;
-      left: 30px;
+      left: 15px;
       top: 500px;
     }
 
-    /* Trekonderoga */
+    /* motion reel */
     .casestudy:nth-child(9) {
-      transform: rotate(-3deg);
+      transform: rotate(-2deg);
       z-index: 3;
-      left: 280px;
-      top: 580px;
+      left: 540px;
+      top: 550px;
     }
 
   .casestudy:hover {
