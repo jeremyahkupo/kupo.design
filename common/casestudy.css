@@ -212,6 +212,10 @@ html {
     color: grey;
   }
 
+  .motion-reel .iso2 {
+    top: -110px
+  }
+
 }
 
 /* 404 page */
@@ -384,6 +388,12 @@ html {
 
   .liquid .project-logo {
     bottom: 65px;
+  }
+
+  /* motion */
+
+  .motion-reel .iso2 {
+    top: -170px
   }
 
 
@@ -580,6 +590,10 @@ html {
 
   .motion-reel .project-logo {
     bottom: 200px;
+  }
+
+  .motion-reel .iso2 {
+    top: -350px
   }
 
 
