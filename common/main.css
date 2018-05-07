@@ -50,7 +50,7 @@ html {
 
 .projects {
   display: block;
-  min-height: 930px;
+  min-height: 1000px;
 }
 
 .casestudy > img {
@@ -299,6 +299,14 @@ html {
       z-index: 3;
       left: 510px;
       top: 550px;
+    }
+
+    /* algonquin */
+    .casestudy:nth-child(10) {
+      transform: rotate(-5deg);
+      z-index: 3;
+      left: 250px;
+      top: 640px;
     }
 
   .casestudy:hover {
