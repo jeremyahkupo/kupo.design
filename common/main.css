@@ -296,7 +296,7 @@ html {
     /* 2-22 */
     .casestudy:nth-child(9) {
       transform: rotate(-2deg);
-      z-index: 43;
+      z-index: 42;
       left: 530px;
       top: 500px;
     }
@@ -304,9 +304,9 @@ html {
     /* algonquin */
     .casestudy:nth-child(10) {
       transform: rotate(-5deg);
-      z-index: 42;
+      z-index: 43;
       left: 280px;
-      top: 640px;
+      top: 650px;
     }
 
     /* cd case */
