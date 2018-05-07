@@ -50,7 +50,7 @@ html {
 
 .projects {
   display: block;
-  min-height: 1000px;
+  min-height: 1100px;
 }
 
 .casestudy > img {
@@ -233,7 +233,7 @@ html {
 /* utan */
   .casestudy:nth-child(1) {
     transform: rotate(4deg);
-    z-index: 11;
+    z-index: 50;
     left: 30px;
     top: 80px;
     }
@@ -241,7 +241,7 @@ html {
 /* mdna */
   .casestudy:nth-child(2) {
     transform: rotate(10deg);
-    z-index: 10;
+    z-index: 49;
     left: 300px;
     top: 200px;
   }
@@ -249,38 +249,38 @@ html {
 /* isometric */
   .casestudy:nth-child(3) {
     transform: rotate(-5deg);
-    z-index: 8;
+    z-index: 48;
     left: 50px;
-    top: 280px;
+    top: 300px;
   }
 
 /* painting */
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
-    z-index: 1;
+    z-index: 40;
     left: 570px;
-    top: 300px;
+    top: 260px;
   }
 
   /* motion reel */
     .casestudy:nth-child(5) {
       transform: rotate(-5deg);
-      z-index: 6;
+      z-index: 46;
       left: 560px;
-      top: 70px;
+      top: 50px;
     }
 
-    /* painting */
+    /* quote book */
     .casestudy:nth-child(6) {
       transform: rotate(-3deg);
-      z-index: 6;
+      z-index: 47;
       left: 290px;
     }
 
     /* body shop */
     .casestudy:nth-child(7) {
       transform: rotate(-3deg);
-      z-index: 7;
+      z-index: 45;
       left: 280px;
       top: 400px;
     }
@@ -288,25 +288,33 @@ html {
     /* liquid */
     .casestudy:nth-child(8) {
       transform: rotate(-2deg);
-      z-index: 3;
+      z-index: 44;
       left: 15px;
-      top: 500px;
+      top: 550px;
     }
 
     /* 2-22 */
     .casestudy:nth-child(9) {
       transform: rotate(-2deg);
-      z-index: 2;
-      left: 510px;
-      top: 550px;
+      z-index: 43;
+      left: 530px;
+      top: 500px;
     }
 
     /* algonquin */
     .casestudy:nth-child(10) {
       transform: rotate(-5deg);
-      z-index: 2;
-      left: 250px;
+      z-index: 42;
+      left: 280px;
       top: 640px;
+    }
+
+    /* cd case */
+    .casestudy:nth-child(11) {
+      transform: rotate(5deg);
+      z-index: 41;
+      left: 550px;
+      top: 720px;
     }
 
   .casestudy:hover {
