@@ -220,6 +220,12 @@ html {
     top: -110px
   }
 
+  /* algonquin */
+
+  .algonquin .project-logo {
+    color: #006342;
+  }
+
 }
 
 /* 404 page */
@@ -402,6 +408,12 @@ html {
 
   .motion-reel .iso2 {
     top: -170px
+  }
+
+  /* algonquin */
+
+  .algonquin .project-logo {
+    width: 90%;
   }
 
 
@@ -606,6 +618,13 @@ html {
 
   .motion-reel .iso2 {
     top: -350px
+  }
+
+  /* algonquin */
+
+  .algonquin .project-logo {
+    bottom: 200px;
+    width: 90%;
   }
 
 
