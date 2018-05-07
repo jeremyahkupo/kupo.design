@@ -246,7 +246,7 @@ html {
     top: 200px;
   }
 
-/* quotebook */
+/* isometric */
   .casestudy:nth-child(3) {
     transform: rotate(-5deg);
     z-index: 8;
@@ -254,15 +254,15 @@ html {
     top: 280px;
   }
 
-/* isometric */
+/* painting */
   .casestudy:nth-child(4) {
     transform: rotate(7deg);
-    z-index: 7;
+    z-index: 1;
     left: 570px;
     top: 300px;
   }
 
-  /* painting */
+  /* motion reel */
     .casestudy:nth-child(5) {
       transform: rotate(-5deg);
       z-index: 6;
@@ -270,14 +270,14 @@ html {
       top: 70px;
     }
 
-    /* bodyshop */
+    /* painting */
     .casestudy:nth-child(6) {
       transform: rotate(-3deg);
       z-index: 6;
       left: 290px;
     }
 
-    /* liquid */
+    /* body shop */
     .casestudy:nth-child(7) {
       transform: rotate(-4deg);
       z-index: 7;
@@ -285,7 +285,7 @@ html {
       top: 400px;
     }
 
-    /* 2-22 */
+    /* liquid */
     .casestudy:nth-child(8) {
       transform: rotate(4deg);
       z-index: 3;
@@ -293,7 +293,7 @@ html {
       top: 500px;
     }
 
-    /* motion reel */
+    /* 2-22 */
     .casestudy:nth-child(9) {
       transform: rotate(-2deg);
       z-index: 3;
