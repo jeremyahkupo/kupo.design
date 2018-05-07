@@ -279,7 +279,7 @@ html {
 
     /* body shop */
     .casestudy:nth-child(7) {
-      transform: rotate(-4deg);
+      transform: rotate(-3deg);
       z-index: 7;
       left: 280px;
       top: 400px;
@@ -287,7 +287,7 @@ html {
 
     /* liquid */
     .casestudy:nth-child(8) {
-      transform: rotate(4deg);
+      transform: rotate(-2deg);
       z-index: 3;
       left: 15px;
       top: 500px;
