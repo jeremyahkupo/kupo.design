@@ -123,7 +123,7 @@ html {
 }
 
 .mdna .project-logo {
-  color: #a4d7c3;
+  color: #8c97ef;
   position: relative;
   padding-top: 165px;
   width: 320px;
@@ -255,7 +255,7 @@ html {
   }
 
   .mdna .header {
-    max-height: 650px;
+    max-height: 550px;
   }
 
   .illustration .header {
@@ -325,7 +325,7 @@ html {
 
 .mdna .project-logo {
     padding-top: 0px;
-    bottom: 80px;
+    bottom: 75px;
     width: 70%;
   }
 
@@ -440,7 +440,7 @@ html {
   }
 
   .mdna .header {
-    max-height: 800px;
+    max-height: 650px;
   }
 
   .mdna .bio2 {
@@ -519,8 +519,8 @@ html {
 
 .mdna .project-logo {
     padding-top: 0px;
-    bottom: 90px;
-    width: 400px;
+    bottom: 200px;
+    width: 430px;
   }
 
 .mdna .img2 {
