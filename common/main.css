@@ -46,11 +46,11 @@ html {
   font-size: 1.1em;
 }
 
-/* Portfolio Pieces */
+/* Portfolio Pieces!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .projects {
   display: block;
-  min-height: 1100px;
+  min-height: 1150px;
 }
 
 .casestudy > img {
@@ -258,7 +258,7 @@ html {
   .casestudy:nth-child(4) {
     transform: rotate(-5deg);
     z-index: 46;
-    left: 560px;
+    left: 540px;
     top: 50px;
   }
 
@@ -314,8 +314,8 @@ html {
     .casestudy:nth-child(11) {
       transform: rotate(5deg);
       z-index: 44;
-      left: 550px;
-      top: 760px;
+      left: 40px;
+      top: 800px;
     }
 
   .casestudy:hover {
