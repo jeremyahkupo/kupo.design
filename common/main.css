@@ -64,7 +64,7 @@ html {
 }
 
 .footer a {
-  margin: 0px 18px;
+  margin: 0px 15px;
   color: #000;
 }
 
@@ -74,13 +74,13 @@ html {
 }
 
 .icon-email {
-  width: 53px;
-  height: 53px;
+  width: 49px;
+  height: 49px;
 }
 
 .icon-social {
-  width: 35px;
-  height: 35px;
+  width: 33px;
+  height: 33px;
 }
 
 .footer a:hover, .footer a:focus {
