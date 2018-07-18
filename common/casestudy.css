@@ -58,6 +58,10 @@ html {
   max-height: 530px;
 }
 
+.dingbats .header {
+  max-height: 530px;
+}
+
 .liquid .header {
   max-height: 530px;
 }
@@ -203,6 +207,23 @@ html {
     bottom: -1px;
   }
 
+  /* Dingbats */
+
+  .dingbats .project-logo {
+    color: green;
+    bottom: -1px;
+  }
+
+  .dingbats .mockup {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .dingbats .mockup-full {
+    max-width: 100%;
+    padding-bottom: 50px;
+  }
+
   /* liquid */
 
   .liquid .project-logo {
@@ -267,6 +288,10 @@ html {
   }
 
   .perspective .header {
+    max-height: 550px;
+  }
+
+  .dingbats .header {
     max-height: 550px;
   }
 
@@ -398,6 +423,12 @@ html {
     bottom: 75px;
   }
 
+  /* DingBats */
+
+  .dingbats .project-logo {
+    bottom: 75px;
+  }
+
   /* liquid */
 
   .liquid .project-logo {
@@ -460,6 +491,10 @@ html {
   }
 
   .perspective .header {
+    max-height: 700px;
+  }
+
+  .dingbats .header {
     max-height: 700px;
   }
 
@@ -601,6 +636,16 @@ html {
   .perspective .project-logo {
     bottom: 200px;
     left: -10px;
+  }
+
+  /* DingBats */
+
+  .dingbats .project-logo {
+    bottom: 200px;
+  }
+
+  .dingbats .mockup {
+    max-width: 49%;
   }
 
   /* liquid */

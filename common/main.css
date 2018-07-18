@@ -278,15 +278,15 @@ html {
       left: 290px;
     }
 
-    /* 2-22 */
+    /* algonquin */
     .casestudy:nth-child(7) {
       transform: rotate(-3deg);
       z-index: 45;
       left: 270px;
-      top: 450px;
+      top: 480px;
     }
 
-    /* algonquin */
+    /* dingbats */
     .casestudy:nth-child(8) {
       transform: rotate(-2deg);
       z-index: 46;
