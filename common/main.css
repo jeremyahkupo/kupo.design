@@ -282,7 +282,7 @@ html {
     .casestudy:nth-child(7) {
       transform: rotate(-3deg);
       z-index: 45;
-      left: 270px;
+      left: 300px;
       top: 480px;
     }
 
