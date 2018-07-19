@@ -244,7 +244,8 @@ html {
   /* algonquin */
 
   .algonquin .project-logo {
-    color: #006342;
+    color: #212721;
+    bottom: -2px;
   }
 
 }
@@ -445,6 +446,7 @@ html {
 
   .algonquin .project-logo {
     width: 90%;
+    bottom: 75px;
   }
 
 
