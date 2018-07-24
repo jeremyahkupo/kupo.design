@@ -224,6 +224,27 @@ html {
     padding-bottom: 50px;
   }
 
+  .icon-download {
+    width: 49px;
+    height: 49px;
+  }
+
+  .download-btn {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    text-align: center;
+  }
+
+  .download-btn a {
+    margin: 0px 15px;
+    color: #000;
+  }
+
+  .download-btn a:hover, .download-btn a:focus {
+    color: var(--color-primary);
+    outline: 0;
+  }
+
   /* liquid */
 
   .liquid .project-logo {
@@ -428,6 +449,16 @@ html {
 
   .dingbats .project-logo {
     bottom: 75px;
+  }
+
+  .icon-download {
+    width: 60px;
+    height: 60px;
+  }
+
+  .download-btn {
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
   }
 
   /* liquid */
