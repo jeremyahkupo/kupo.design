@@ -245,6 +245,17 @@ html {
     outline: 0;
   }
 
+  .font-example-br {
+    font-size: 7em;
+    line-height: 120px;
+    font-family: "Friendboys";
+    padding-bottom: 20px;
+  }
+
+  .font-example {
+    display: none;
+  }
+
   /* liquid */
 
   .liquid .project-logo {
@@ -459,6 +470,13 @@ html {
   .download-btn {
     padding-top: 2.5em;
     padding-bottom: 1.5em;
+  }
+
+  .font-example-br {
+    font-size: 9em;
+    line-height: 170px;
+    font-family: "Friendboys";
+    padding-bottom: 30px;
   }
 
   /* liquid */
@@ -679,6 +697,18 @@ html {
 
   .dingbats .mockup {
     max-width: 49%;
+  }
+
+  .font-example-br {
+    display: none;
+  }
+
+  .font-example {
+    display: block;
+    font-size: 6.8rem;
+    line-height: 170px;
+    font-family: "Friendboys";
+    padding-bottom: 40px;
   }
 
   /* liquid */
