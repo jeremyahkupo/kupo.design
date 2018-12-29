@@ -280,10 +280,10 @@ html {
 
     /* algonquin */
     .casestudy:nth-child(7) {
-      transform: rotate(-3deg);
-      z-index: 45;
+      transform: rotate(5deg);
+      z-index: 0;
       left: 300px;
-      top: 480px;
+      top: 780px;
     }
 
     /* dingbats */
@@ -304,18 +304,18 @@ html {
 
     /* body */
     .casestudy:nth-child(10) {
-      transform: rotate(3deg);
+      transform: rotate(-3deg);
       z-index: 45;
       left: 280px;
-      top: 720px;
+      top: 500px;
     }
 
     /* cd case */
     .casestudy:nth-child(11) {
-      transform: rotate(5deg);
+      transform: rotate(-6deg);
       z-index: 44;
-      left: 40px;
-      top: 800px;
+      left: 70px;
+      top: 780px;
     }
 
   .casestudy:hover {
