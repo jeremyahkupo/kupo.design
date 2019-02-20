@@ -24,7 +24,7 @@ html {
 }
 
 .projects {
-  display: none;
+  display: block;
 }
 
 .bio-name {
@@ -40,25 +40,31 @@ html {
   display: inherit;
   padding-left: 1em;
   padding-right: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 7em;
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-size: 1.1em;
-}
-
-.purple-line {
-  color: red;
 }
 
 /* Portfolio Pieces!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .projects {
   display: block;
-  min-height: 1150px;
+  min-height: 2500px;
+}
+
+.illustration {
+  display: block;
+  min-height: 500px;
 }
 
 .casestudy > img {
   max-width: 100%;
+}
+
+
+.categories {
+  display: none;
 }
 
 /* Footer */
@@ -91,6 +97,7 @@ html {
   color: var(--color-primary);
   outline: 0;
 }
+
 
 .icon {
   display: block;
@@ -214,9 +221,40 @@ html {
     z-index: 0;
   }
 
+
+  /* Categories */
+
+  .categories {
+    display: block;
+  }
+
+  .illustration-icon {
+    position: relative;
+    bottom: 140px;
+    width: 200px;
+  }
+
+  .motion-icon {
+    position: relative;
+    width: 225px;
+  }
+
+  .branding-icon {
+    position: relative;
+    top: 600px;
+    width: 173px;
+  }
+
+  .photography-icon {
+    position: relative;
+    top: 1400px;
+    width: 200px;
+  }
+
   /* Portfolio Pieces */
 
   .projects {
+    visibility: visible;
     position: relative;
   }
 
@@ -234,92 +272,148 @@ html {
     max-width: 100%;
   }
 
-/* utan */
+/* isometric */
   .casestudy:nth-child(1) {
     transform: rotate(4deg);
-    z-index: 50;
-    left: 30px;
-    top: 80px;
+    z-index: 5;
+    top: 0px;
+    left: 300px;
     }
 
-/* mdna */
+/* matty */
   .casestudy:nth-child(2) {
-    transform: rotate(8deg);
-    z-index: 49;
-    left: 300px;
-    top: 230px;
+    transform: rotate(7deg);
+    z-index: 0;
+    left: 50px;
+    top: 200px;
   }
 
-/* isometric */
+/* dingbats */
   .casestudy:nth-child(3) {
     transform: rotate(-5deg);
-    z-index: 48;
-    left: 40px;
-    top: 300px;
+    z-index: 1;
+    left: 560px;
+    top: 225px;
   }
 
-/* motion reel */
+/* nicki minaj */
   .casestudy:nth-child(4) {
-    transform: rotate(-5deg);
-    z-index: 46;
-    left: 540px;
-    top: 50px;
+    transform: rotate(6deg);
+    z-index: 2;
+    left: 570px;
+    top: -50px;
   }
 
-  /* painting */
+  /* priyanka */
     .casestudy:nth-child(5) {
-      transform: rotate(7deg);
-      z-index: 40;
-      left: 570px;
-      top: 260px;
+      transform: rotate(-5deg);
+      z-index: 3;
+      left: 280px;
+      top: 270px;
     }
 
 
-    /* quote book */
+    /* cardcaptors */
     .casestudy:nth-child(6) {
       transform: rotate(-3deg);
-      z-index: 47;
-      left: 290px;
+      z-index: 6;
+      left: 20px;
+      top: -70px;
     }
 
-    /* algonquin */
-    .casestudy:nth-child(7) {
+    /* ----------- */
+
+
+    /* Motion Reel */
+    .casestudy:nth-child(9) {
+      transform: rotate(6deg);
+      z-index: 10;
+      left: 320px;
+      top: 800px;
+    }
+
+    /* Body Shop */
+    .casestudy:nth-child(13) {
+      transform: rotate(-6deg);
+      z-index: 9;
+      left: 25px;
+      top: 750px;
+    }
+
+    /* Queen Animation */
+    .casestudy:nth-child(15) {
+      transform: rotate(-4deg);
+      z-index: 8;
+      left: 600px;
+      top: 750px;
+    }
+
+    /* Gameboy */
+    .casestudy:nth-child(16) {
       transform: rotate(5deg);
-      z-index: 0;
-      left: 300px;
-      top: 780px;
+      z-index: 7;
+      left: 575px;
+      top: 1000px;
     }
 
-    /* dingbats */
+    /* -------------- */
+
+    /* uTan */
+    .casestudy:nth-child(7) {
+      transform: rotate(-6deg);
+      z-index: 2;
+      left: 300px;
+      bottom: 650px;
+    }
+
+    /* Algonquin */
+    .casestudy:nth-child(11) {
+      transform: rotate(6deg);
+      z-index: 1;
+      bottom: 650px;
+      left: 575px;
+    }
+
+    /* Annual Report */
+    .casestudy:nth-child(17) {
+      transform: rotate(3deg);
+      z-index: 1;
+      bottom: 650px;
+      left: 0px;
+    }
+
+    /* ------------- */
+
+    /* Quote Book */
+    .casestudy:nth-child(10) {
+      transform: rotate(-4deg);
+      z-index: 45;
+      left: 280px;
+      bottom: 100px;
+    }
+
+    /* portfolio */
     .casestudy:nth-child(8) {
       transform: rotate(-2deg);
       z-index: 46;
       left: 15px;
-      top: 550px;
+      bottom: 150px;
     }
 
-    /* liquid */
-    .casestudy:nth-child(9) {
-      transform: rotate(-2deg);
-      z-index: 43;
-      left: 530px;
-      top: 530px;
-    }
-
-    /* body */
-    .casestudy:nth-child(10) {
-      transform: rotate(-3deg);
-      z-index: 45;
-      left: 280px;
-      top: 500px;
-    }
-
-    /* cd case */
-    .casestudy:nth-child(11) {
+    /* Liquid */
+    .casestudy:nth-child(12) {
       transform: rotate(-6deg);
       z-index: 44;
-      left: 70px;
-      top: 780px;
+      left: 700px;
+      bottom: 180px;
+    }
+
+    /* CD Case */
+    .casestudy:nth-child(14) {
+      transform: rotate(-6deg);
+      z-index: 44;
+      left: 400px;
+      bottom: 180px;
     }
 
   .casestudy:hover {
