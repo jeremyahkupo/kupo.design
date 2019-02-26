@@ -161,9 +161,8 @@ html {
 }
 
 .illustration .project-logo {
-  bottom: 0px;
+
   color: #d14f73;
-  width: 91%;
 }
 
 .iso2 {
@@ -241,6 +240,7 @@ html {
 
   .body .project-logo {
     color: #CAF0FF;
+    bottom: -1px;
   }
 
   .bodyshop-video {
@@ -251,13 +251,6 @@ html {
     height: 220px;
     width: 527px;
     font-size: .5em;
-  }
-
-  /* 2-22 */
-
-  .perspective .project-logo {
-    color: #010254;
-    bottom: -1px;
   }
 
   /* Dingbats */
