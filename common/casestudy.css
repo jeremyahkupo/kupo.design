@@ -75,6 +75,14 @@ html {
   max-height: 450px;
 }
 
+.clowcards .header {
+  max-height: 530px;
+}
+
+.queen .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -233,7 +241,6 @@ html {
 
   .body .project-logo {
     color: #CAF0FF;
-    bottom: -1px;
   }
 
   .bodyshop-video {
@@ -326,6 +333,19 @@ html {
     bottom: -2px;
   }
 
+  /* clow cards */
+
+  .clowcards .project-logo {
+    color: grey;
+  }
+
+  /* Nicki Minaj */
+  .queen .project-logo {
+    color: #ffca3b;
+    bottom: -6px;
+  }
+
+
 }
 
 /* 404 page */
@@ -376,6 +396,14 @@ html {
 
   .motion-reel .header {
     max-height: 450px;
+  }
+
+  .clowcards .header {
+    max-height: 550px;
+  }
+
+  .queen .header {
+    max-height: 550px;
   }
 
   .bio1 {
@@ -544,6 +572,12 @@ html {
     bottom: 75px;
   }
 
+  /* Nicki Minaj */
+
+  .queen .project-logo {
+    width: 90%;
+    bottom: 69px;
+  }
 
   /* 404 page */
   .error .logo-404 {
@@ -603,6 +637,14 @@ html {
     max-height: 700px;
   }
 
+  .clowcards .header {
+    max-height: 700px;
+  }
+
+  .queen .header {
+    max-height: 700px;
+  }
+
   .home {
     display: block;
     width: 150px;
@@ -622,9 +664,6 @@ html {
   }
 
   .project-logo {
-    padding-top: 0px;
-    bottom: 90px;
-    width: 400px;
   }
 
   .img2 {
@@ -781,8 +820,26 @@ html {
     width: 90%;
   }
 
+  /* clow cards */
 
-  /* 404 page */
+  .clowcards .project-logo {
+    bottom: 200px;
+  }
+
+  .clowcards .cards {
+    max-width: 100%;
+  }
+
+  /* Nicki Minaj */
+
+  .queen .project-logo {
+    bottom: 200px;
+    max-width: 90%;
+  }
+
+
+
+  /* 404 pages */
 
   .error .logo-404 {
     bottom: 200px;
@@ -791,7 +848,6 @@ html {
   .construction .project-logo {
     bottom: 200px;
   }
-
 
 
 }
