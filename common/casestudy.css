@@ -13,7 +13,7 @@ html {
 }
 
 .home {
-  width: 20%;
+  width: 30%;
   height: 4%;
   fill: black;
   top: 27px;
@@ -333,9 +333,17 @@ html {
   }
 
   /* Nicki Minaj */
+
   .queen .project-logo {
     color: #ffca3b;
     bottom: -6px;
+  }
+
+  /* Priyanka */
+
+  .priyanka .project-logo {
+    color: #ffca3b;
+    bottom: -8px;
   }
 
 }
@@ -569,6 +577,10 @@ html {
   .queen .project-logo {
     width: 90%;
     bottom: 69px;
+  }
+
+  .priyanka .project-logo {
+    bottom: 65px;
   }
 
   /* 404 page */
@@ -829,7 +841,12 @@ html {
     max-width: 90%;
   }
 
+  /* Priyanka */
 
+  .priyanka .project-logo {
+    bottom: 200px;
+    max-width: 90%;
+  }
 
   /* 404 pages */
 
