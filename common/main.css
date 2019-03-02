@@ -304,32 +304,32 @@ html {
   }
 
   /* Queen */
-    .casestudy:nth-child(2) {
-      transform: rotate(-7deg);
-      z-index: 10;
-      left: 20px;
-      top: 50px;
+  .casestudy:nth-child(2) {
+    transform: rotate(-7deg);
+    z-index: 10;
+    left: 20px;
+    top: 50px;
   }
   /* Dingbats */
-    .casestudy:nth-child(3) {
-      transform: rotate(-5deg);
-      z-index: 6;
-      left: 310px;
-      top: 60px;
+  .casestudy:nth-child(3) {
+    transform: rotate(-5deg);
+    z-index: 6;
+    left: 310px;
+    top: 60px;
   }
   /* Isometric */
-    .casestudy:nth-child(4) {
-      transform: rotate(6deg);
-      z-index: 2;
-      left: 570px;
-      top: 50px;
+  .casestudy:nth-child(4) {
+    transform: rotate(6deg);
+    z-index: 2;
+    left: 570px;
+    top: 50px;
   }
   /* Priyanka */
-    .casestudy:nth-child(5) {
-      transform: rotate(4deg);
-      z-index: 3;
-      left: 300px;
-      top: 330px;
+  .casestudy:nth-child(5) {
+    transform: rotate(4deg);
+    z-index: 3;
+    left: 300px;
+    top: 330px;
   }
   /* Painting */
   .casestudy:nth-child(6) {
@@ -351,7 +351,6 @@ html {
 
   /* Motion Icon */
   .casestudy:nth-child(8) {
-
   }
 
   /* Motion */
@@ -449,7 +448,7 @@ html {
 
   /* MDNA */
   .casestudy:nth-child(21) {
-    transform: rotate(-6deg);
+    transform: rotate(6deg);
     z-index: 44;
     left: 600px;
     bottom: 330px;
@@ -459,7 +458,7 @@ html {
   .casestudy:nth-child(22) {
     transform: rotate(-6deg);
     z-index: 44;
-    left: 20px;
+    left: 30px;
     bottom: 50px;
   }
 
