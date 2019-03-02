@@ -57,9 +57,31 @@ html {
   display: block;
 }
 
-.illustration .photography .motion .branding {
+.illustration-icon {
   display: block;
-  position: absolute;
+  margin: auto;
+  color: var(--color-primary);
+}
+
+.motion-icon {
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+  color: var(--color-primary);
+}
+
+.branding-icon {
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+  color: var(--color-primary);
+}
+
+.photography-icon {
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+  color: var(--color-primary);
 }
 
 /* Footer */
@@ -233,24 +255,28 @@ html {
   }
 
   .illustration-icon {
+    padding-top: 0;
     position: relative;
-    bottom: 100px;
+    top: -70px;
     width: 200px;
   }
 
   .motion-icon {
+    padding-top: 0;
     position: relative;
     width: 225px;
     top: 500px;
   }
 
   .branding-icon {
+    padding-top: 0;
     position: relative;
     top: 1100px;
     width: 173px;
   }
 
   .photography-icon {
+    padding-top: 0;
     position: relative;
     top: 1420px;
     width: 200px;
@@ -286,42 +312,42 @@ html {
       transform: rotate(-7deg);
       z-index: 10;
       left: 20px;
-      top: 30px;
+      top: 50px;
   }
   /* Dingbats */
     .casestudy:nth-child(3) {
       transform: rotate(-5deg);
       z-index: 6;
-      left: 300px;
-      top: 30px;
+      left: 310px;
+      top: 60px;
   }
   /* Isometric */
     .casestudy:nth-child(4) {
       transform: rotate(6deg);
       z-index: 2;
       left: 570px;
-      top: 30px;
+      top: 50px;
   }
   /* Priyanka */
     .casestudy:nth-child(5) {
-      transform: rotate(-5deg);
+      transform: rotate(4deg);
       z-index: 3;
-      left: 280px;
-      top: 300px;
+      left: 300px;
+      top: 330px;
   }
-  /* Matty Painting */
+  /* Painting */
   .casestudy:nth-child(6) {
-    transform: rotate(6deg);
+    transform: rotate(-5deg);
     z-index: 0;
-    left: 50px;
-    top: 300px;
+    left: 30px;
+    top: 340px;
   }
   /* Clow Cards */
   .casestudy:nth-child(7) {
     transform: rotate(-3deg);
     z-index: 1;
     left: 560px;
-    top: 300px;
+    top: 320px;
   }
 
     /* ----------- */
