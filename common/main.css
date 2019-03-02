@@ -265,20 +265,20 @@ html {
     padding-top: 0;
     position: relative;
     width: 225px;
-    top: 500px;
+    top: 550px;
   }
 
   .branding-icon {
     padding-top: 0;
     position: relative;
-    top: 1100px;
+    top: 1150px;
     width: 173px;
   }
 
   .photography-icon {
     padding-top: 0;
     position: relative;
-    top: 1420px;
+    top: 1490px;
     width: 200px;
   }
 
@@ -425,7 +425,6 @@ html {
 
   /* Photography Icon */
   .casestudy:nth-child(17) {
-
   }
 
   /* Liquid */
@@ -452,11 +451,27 @@ html {
     bottom: 330px;
   }
 
-  /* Quote Book */
+  /* Albums */
   .casestudy:nth-child(21) {
     transform: rotate(-6deg);
     z-index: 44;
     left: 20px;
+    bottom: 50px;
+  }
+
+  /* Quote Book */
+  .casestudy:nth-child(22) {
+    transform: rotate(3deg);
+    z-index: 44;
+    left: 310px;
+    bottom: 50px;
+  }
+
+  /* Carasauga */
+  .casestudy:nth-child(23) {
+    transform: rotate(6deg);
+    z-index: 44;
+    left: 600px;
     bottom: 50px;
   }
 
