@@ -346,6 +346,11 @@ html {
     bottom: -8px;
   }
 
+  .albums .project-logo {
+    color: blue;
+    bottom: -2px;
+  }
+
 }
 
 /* 404 page */
@@ -581,6 +586,10 @@ html {
 
   .priyanka .project-logo {
     bottom: 65px;
+  }
+
+  .albums .project-logo {
+    bottom: 75px;
   }
 
   /* 404 page */
@@ -846,6 +855,10 @@ html {
   .priyanka .project-logo {
     bottom: 200px;
     max-width: 90%;
+  }
+
+  .albums .project-logo {
+    bottom: 200px;
   }
 
   /* 404 pages */
