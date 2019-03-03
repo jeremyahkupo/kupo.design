@@ -593,8 +593,6 @@ html {
     bottom: 75px;
   }
 
-  /* Nicki Minaj */
-
   .queen .project-logo {
     width: 90%;
     bottom: 69px;
@@ -682,7 +680,6 @@ html {
     max-height: 700px;
   }
 
-
   .home {
     display: block;
     width: 150px;
@@ -691,9 +688,10 @@ html {
     left: -35px;
   }
 
+  /* Quote Book */
 
-  .img1 {
-    width: 65%;
+  .quotebook .img1 {
+    width: 60%;
     display: block;
     position: relative;
     margin: auto;
@@ -701,10 +699,11 @@ html {
     top: -14px;
   }
 
-  .project-logo {
+  .quotebook .project-logo {
+    bottom: 90px;
   }
 
-  .img2 {
+  .quotebook .img2 {
     width: 65%;
     top: -170px;
     left: -140px;
