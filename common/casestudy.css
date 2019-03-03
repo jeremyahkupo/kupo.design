@@ -83,6 +83,14 @@ html {
   max-height: 530px;
 }
 
+.drag .header {
+  max-height: 530px;
+}
+
+.albums .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -339,9 +347,9 @@ html {
     bottom: -6px;
   }
 
-  /* Priyanka */
+  /* Drag Queen */
 
-  .priyanka .project-logo {
+  .drag .project-logo {
     color: #ffca3b;
     bottom: -8px;
   }
@@ -408,6 +416,14 @@ html {
   }
 
   .queen .header {
+    max-height: 550px;
+  }
+
+  .drag .header {
+    max-height: 550px;
+  }
+
+  .albums .header {
     max-height: 550px;
   }
 
@@ -584,8 +600,8 @@ html {
     bottom: 69px;
   }
 
-  .priyanka .project-logo {
-    bottom: 65px;
+  .drag .project-logo {
+    bottom: 67px;
   }
 
   .albums .project-logo {
@@ -657,6 +673,15 @@ html {
   .queen .header {
     max-height: 700px;
   }
+
+  .drag .header {
+    max-height: 700px;
+  }
+
+  .albums .header {
+    max-height: 700px;
+  }
+
 
   .home {
     display: block;
@@ -850,9 +875,9 @@ html {
     max-width: 90%;
   }
 
-  /* Priyanka */
+  /* Drag Queen */
 
-  .priyanka .project-logo {
+  .drag .project-logo {
     bottom: 200px;
     max-width: 90%;
   }
