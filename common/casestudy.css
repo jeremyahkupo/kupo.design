@@ -91,6 +91,10 @@ html {
   max-height: 530px;
 }
 
+.gameboy .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -334,20 +338,14 @@ html {
     bottom: -2px;
   }
 
-  /* clow cards */
-
   .clowcards .project-logo {
     color: grey;
   }
-
-  /* Nicki Minaj */
 
   .queen .project-logo {
     color: #ffca3b;
     bottom: -6px;
   }
-
-  /* Drag Queen */
 
   .drag .project-logo {
     color: #ffca3b;
@@ -357,6 +355,10 @@ html {
   .albums .project-logo {
     color: #ffca3b;
     bottom: -2px;
+  }
+
+  .gameboy .project-logo {
+    color: orange;
   }
 
 }
@@ -426,6 +428,11 @@ html {
   .albums .header {
     max-height: 550px;
   }
+
+  .gameboy .header {
+    max-height: 550px;
+  }
+
 
   .bio1 {
     display: none;
@@ -606,6 +613,10 @@ html {
     bottom: 75px;
   }
 
+  .gameboy .project-logo {
+    bottom: 75px;
+  }
+
   /* 404 page */
   .error .logo-404 {
     bottom: 75px;
@@ -679,6 +690,11 @@ html {
   .albums .header {
     max-height: 700px;
   }
+
+  .gameboy .header {
+    max-height: 700px;
+  }
+
 
   .home {
     display: block;
@@ -867,14 +883,10 @@ html {
     max-width: 100%;
   }
 
-  /* Nicki Minaj */
-
   .queen .project-logo {
     bottom: 200px;
     max-width: 90%;
   }
-
-  /* Drag Queen */
 
   .drag .project-logo {
     bottom: 200px;
@@ -882,6 +894,10 @@ html {
   }
 
   .albums .project-logo {
+    bottom: 200px;
+  }
+
+  .gameboy .project-logo {
     bottom: 200px;
   }
 
