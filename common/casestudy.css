@@ -95,6 +95,10 @@ html {
   max-height: 530px;
 }
 
+.trek .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -361,6 +365,14 @@ html {
     color: orange;
   }
 
+  .trek .project-logo {
+    color: #fbd410;
+  }
+
+  .trek .mockup-color-trek {
+    width: 100%;
+  }
+
 }
 
 /* 404 page */
@@ -430,6 +442,10 @@ html {
   }
 
   .gameboy .header {
+    max-height: 550px;
+  }
+
+  .trek .header {
     max-height: 550px;
   }
 
@@ -617,6 +633,10 @@ html {
     bottom: 75px;
   }
 
+  .trek .project-logo {
+    bottom: 75px;
+  }
+
   /* 404 page */
   .error .logo-404 {
     bottom: 75px;
@@ -692,6 +712,10 @@ html {
   }
 
   .gameboy .header {
+    max-height: 700px;
+  }
+
+  .trek .header {
     max-height: 700px;
   }
 
@@ -899,6 +923,14 @@ html {
 
   .gameboy .project-logo {
     bottom: 200px;
+  }
+
+  .trek .project-logo {
+    bottom: 200px;
+  }
+
+  .trek .mockup-color-trek {
+    width: 49%;
   }
 
   /* 404 pages */
