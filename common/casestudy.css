@@ -87,7 +87,11 @@ html {
   max-height: 530px;
 }
 
-.albums .header {
+.album-art .header {
+  max-height: 530px;
+}
+
+.album-booklet .header {
   max-height: 530px;
 }
 
@@ -96,6 +100,10 @@ html {
 }
 
 .trek .header {
+  max-height: 530px;
+}
+
+.carassauga .header {
   max-height: 530px;
 }
 
@@ -356,9 +364,12 @@ html {
     bottom: -8px;
   }
 
-  .albums .project-logo {
-    color: #ffca3b;
-    bottom: -2px;
+  .album-art .project-logo {
+    color: red;
+  }
+
+  .album-booklet .project-logo {
+    color: red;
   }
 
   .gameboy .project-logo {
@@ -371,6 +382,10 @@ html {
 
   .trek .mockup-color-trek {
     width: 100%;
+  }
+
+  .carassauga .project-logo {
+    color:#fff;
   }
 
 }
@@ -389,7 +404,7 @@ html {
   }
 
   .home {
-    width: 140px;
+    width: 100px;
     height: 29px;
     position: absolute;
     fill: black;
@@ -402,51 +417,59 @@ html {
   }
 
   .mdna .header {
-    max-height: 550px;
+    max-height: 520px;
   }
 
   .illustration .header {
-    max-height: 550px;
+    max-height: 520px;
   }
 
   .paint .header {
-    max-height: 530px;
-  }
-
-  .perspective .header {
-    max-height: 550px;
+    max-height: 520px;
   }
 
   .dingbats .header {
-    max-height: 550px;
+    max-height: 520px;
+  }
+
+  .utan .header {
+    max-height: 590px;
   }
 
   .motion-reel .header {
-    max-height: 450px;
+    max-height: 590px;
   }
 
   .clowcards .header {
-    max-height: 550px;
+    max-height: 530px;
   }
 
   .queen .header {
-    max-height: 550px;
+    max-height: 530px;
   }
 
   .drag .header {
-    max-height: 550px;
+    max-height: 530px;
   }
 
-  .albums .header {
-    max-height: 550px;
+  .album-art .header {
+    max-height: 530px;
+  }
+
+  .album-booklet .header {
+    max-height: 530px;
   }
 
   .gameboy .header {
-    max-height: 550px;
+    max-height: 530px;
   }
 
   .trek .header {
-    max-height: 550px;
+    max-height: 530px;
+  }
+
+  .carassauga .header {
+    max-height: 530px;
   }
 
 
@@ -458,6 +481,41 @@ html {
     display: inherit;
     position: relative;
     padding-bottom: 50px;
+  }
+
+/*
+  .iso1 {
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 130px;
+  }
+
+  .iso2 {
+    display: block;
+    margin: auto;
+    top: -155px;
+    right: 130px;
+  }
+
+  */
+
+  .iso1 {
+    width: 75%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 80px;
+    z-index: 1
+  }
+
+  .iso2 {
+    width: 75%;
+    display: block;
+    margin: auto;
+    top: -293px;
+    right: 80px;
+    z-index: 0;
   }
 
   .mockup {
@@ -501,8 +559,8 @@ html {
 
 .mdna .project-logo {
     padding-top: 0px;
-    bottom: 75px;
-    width: 70%;
+    bottom: 140px;
+    width: 60%;
   }
 
 .mdna .img2 {
@@ -513,29 +571,16 @@ html {
 
   /* isometric */
 
-  .iso1 {
-    display: block;
-    position: relative;
-    margin: auto;
-    left: 130px;
-  }
-
   .illustration .project-logo {
-    bottom: 75px;
-    width: 89%;
-  }
-
-  .iso2 {
-    display: block;
-    margin: auto;
-    top: -155px;
-    right: 130px;
+    bottom: 140px;
+    width: 60%;
   }
 
   /* paint */
 
   .paint .project-logo {
-    bottom: 74px;
+    bottom: 140px;
+    width: 40%;
   }
 
   /* utan */
@@ -547,7 +592,8 @@ html {
   }
 
   .utan .project-logo {
-    bottom: 110px;
+    bottom: 100px;
+    width: 60%;
   }
 
   .utan .iso2 {
@@ -559,8 +605,8 @@ html {
   /* Body Shop */
 
   .body .project-logo {
-    width: 90%;
-    bottom: 75px;
+    bottom: 140px;
+    width: 60%;
   }
 
   .bodyshop-video {
@@ -568,16 +614,11 @@ html {
     width: 527px;
   }
 
-  /* 2-22 */
-
-  .perspective .project-logo {
-    bottom: 75px;
-  }
-
   /* DingBats */
 
   .dingbats .project-logo {
-    bottom: 75px;
+    bottom: 140px;
+    width: 50%;
   }
 
   .icon-download {
@@ -600,7 +641,8 @@ html {
   /* liquid */
 
   .liquid .project-logo {
-    bottom: 65px;
+    bottom: 140px;
+    width: 60%;
   }
 
   /* motion */
@@ -612,29 +654,48 @@ html {
   /* algonquin */
 
   .algonquin .project-logo {
-    width: 90%;
-    bottom: 75px;
+    bottom: 140px;
+    width: 60%;
   }
 
   .queen .project-logo {
-    width: 90%;
-    bottom: 69px;
+    bottom: 140px;
+    width: 60%;
   }
 
   .drag .project-logo {
-    bottom: 67px;
+    bottom: 140px;
+    width: 60%;
   }
 
-  .albums .project-logo {
-    bottom: 75px;
+  .clowcards .project-logo {
+    bottom: 140px;
+    width: 60%;
+  }
+
+  .album-art .project-logo {
+    bottom: 140px;
+    width: 50%;
+  }
+
+  .album-booklet .project-logo {
+    bottom: 140px;
+    width: 60%;
   }
 
   .gameboy .project-logo {
-    bottom: 75px;
+    bottom: 140px;
+    width: 60%;
   }
 
   .trek .project-logo {
-    bottom: 75px;
+    bottom: 140px;
+    width: 60%;
+  }
+
+  .carassauga .project-logo {
+    bottom: 140px;
+    width: 60%;
   }
 
   /* 404 page */
@@ -679,11 +740,11 @@ html {
     max-height: 700px;
   }
 
-  .perspective .header {
+  .dingbats .header {
     max-height: 700px;
   }
 
-  .dingbats .header {
+  .utan .header {
     max-height: 700px;
   }
 
@@ -707,7 +768,11 @@ html {
     max-height: 700px;
   }
 
-  .albums .header {
+  .album-art .header {
+    max-height: 700px;
+  }
+
+  .album-booklet .header {
     max-height: 700px;
   }
 
@@ -717,6 +782,28 @@ html {
 
   .trek .header {
     max-height: 700px;
+  }
+
+  .carassauga .header {
+    max-height: 700px;
+  }
+
+  .iso1 {
+    width: 70%;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 135px;
+    z-index: 1
+  }
+
+  .iso2 {
+    width: 70%;
+    display: block;
+    margin: auto;
+    top: -393px;
+    right: 135px;
+    z-index: 0;
   }
 
 
@@ -756,50 +843,17 @@ html {
 
   /* MDNA */
 
-.mdna .img1 {
-    width: 65%;
-    display: block;
-    position: relative;
-    margin: auto;
-    left: 150px;
-    top: -14px;
-  }
-
 .mdna .project-logo {
     padding-top: 0px;
     bottom: 200px;
     width: 430px;
   }
 
-.mdna .img2 {
-    width: 65%;
-    top: -170px;
-    left: -150px;
-  }
-
   /* isometric */
-
-  .iso1 {
-    width: 70%;
-    display: block;
-    position: relative;
-    margin: auto;
-    left: 135px;
-    z-index: 1
-  }
 
   .illustration .project-logo {
     bottom: 200px;
     width: 90%;
-  }
-
-  .iso2 {
-    width: 70%;
-    display: block;
-    margin: auto;
-    top: -393px;
-    right: 135px;
-    z-index: 0;
   }
 
   .mockup-illustration {
@@ -917,9 +971,15 @@ html {
     max-width: 90%;
   }
 
-  .albums .project-logo {
+  .album-art .project-logo {
     bottom: 200px;
-  }
+    max-width: 90%;
+    }
+
+  .album-booklet .project-logo {
+    bottom: 200px;
+    max-width: 90%;
+    }
 
   .gameboy .project-logo {
     bottom: 200px;
@@ -931,6 +991,10 @@ html {
 
   .trek .mockup-color-trek {
     width: 49%;
+  }
+
+  .carassauga .project-logo {
+    bottom: 200px;
   }
 
   /* 404 pages */
