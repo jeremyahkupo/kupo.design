@@ -385,7 +385,11 @@ html {
   }
 
   .carassauga .project-logo {
-    color:#fff;
+    color: #fff;
+  }
+
+  .carassauga .mockup-carassauga {
+    width: 100%;
   }
 
 }
@@ -698,6 +702,10 @@ html {
     width: 60%;
   }
 
+  .carassauga .mockup-carassauga {
+    width: 49%;
+  }
+
   /* 404 page */
   .error .logo-404 {
     bottom: 75px;
@@ -995,6 +1003,10 @@ html {
 
   .carassauga .project-logo {
     bottom: 200px;
+  }
+
+  .carassauga .mockup-carassauga {
+    width: 49%;
   }
 
   /* 404 pages */
