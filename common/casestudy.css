@@ -107,6 +107,10 @@ html {
   max-height: 530px;
 }
 
+.ui .header {
+  max-height: 530px;
+}
+
 .projects {
   display: none;
 }
@@ -392,6 +396,10 @@ html {
     width: 100%;
   }
 
+  .ui .project-logo {
+    color: #f62681;
+  }
+
 }
 
 /* 404 page */
@@ -476,6 +484,10 @@ html {
     max-height: 530px;
   }
 
+  .ui .header {
+    max-height: 530px;
+  }
+
 
   .bio1 {
     display: none;
@@ -486,23 +498,6 @@ html {
     position: relative;
     padding-bottom: 50px;
   }
-
-/*
-  .iso1 {
-    display: block;
-    position: relative;
-    margin: auto;
-    left: 130px;
-  }
-
-  .iso2 {
-    display: block;
-    margin: auto;
-    top: -155px;
-    right: 130px;
-  }
-
-  */
 
   .iso1 {
     width: 75%;
@@ -706,6 +701,10 @@ html {
     width: 49%;
   }
 
+  .ui .project-logo {
+    bottom: 140px;
+  }
+
   /* 404 page */
   .error .logo-404 {
     bottom: 75px;
@@ -793,6 +792,10 @@ html {
   }
 
   .carassauga .header {
+    max-height: 700px;
+  }
+
+  .ui .header {
     max-height: 700px;
   }
 
@@ -1007,6 +1010,10 @@ html {
 
   .carassauga .mockup-carassauga {
     width: 49%;
+  }
+
+  .ui .project-logo {
+    bottom: 200px;
   }
 
   /* 404 pages */
