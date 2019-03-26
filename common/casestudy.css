@@ -99,6 +99,10 @@ html {
   max-height: 530px;
 }
 
+.algonquin .header {
+  max-height: 530px;
+}
+
 .trek .header {
   max-height: 530px;
 }
@@ -480,6 +484,10 @@ html {
     max-height: 530px;
   }
 
+  .algonquin .header {
+    max-height: 530px;
+  }
+
   .carassauga .header {
     max-height: 530px;
   }
@@ -788,6 +796,10 @@ html {
   }
 
   .trek .header {
+    max-height: 700px;
+  }
+
+  .algonquin .header {
     max-height: 700px;
   }
 
