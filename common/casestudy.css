@@ -276,10 +276,6 @@ html {
   }
 
   .bodyshop-video {
-    max-width: 100%;
-  }
-
-  .bodyshop-video {
     height: 220px;
     width: 527px;
     font-size: .5em;
@@ -365,6 +361,10 @@ html {
   .queen .project-logo {
     color: #ffca3b;
     bottom: -6px;
+  }
+
+  .queen-video {
+    width: 100%;
   }
 
   .drag .project-logo {
@@ -668,6 +668,10 @@ html {
   .queen .project-logo {
     bottom: 140px;
     width: 60%;
+  }
+
+  .queen-video {
+    width: 100%;
   }
 
   .drag .project-logo {
@@ -987,6 +991,11 @@ html {
   .queen .project-logo {
     bottom: 200px;
     max-width: 90%;
+  }
+
+  .queen-video {
+    width: 700px;
+    height: 700px;
   }
 
   .drag .project-logo {
