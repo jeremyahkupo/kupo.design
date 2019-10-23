@@ -132,6 +132,7 @@ html {
   max-width: 100%;
   position: relative;
   padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .footer {
@@ -276,9 +277,7 @@ html {
   }
 
   .bodyshop-video {
-    height: 220px;
-    width: 527px;
-    font-size: .5em;
+
   }
 
   /* Dingbats */
@@ -924,8 +923,8 @@ html {
   }
 
   .bodyshop-video {
-    height: 500px;
-    width: 900px;
+    height: 450px;
+    width: 850px;
   }
 
   /* 2-22 */
