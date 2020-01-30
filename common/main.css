@@ -246,7 +246,7 @@ html {
   }
 
 
-  
+
 
   /* Categories */
 
@@ -369,7 +369,7 @@ html {
   /* Motion */
   .casestudy:nth-child(9) {
     transform: rotate(-7deg);
-    z-index: 10;
+    z-index: 11;
     left: 20px;
     top: 840px;
   }
@@ -377,18 +377,19 @@ html {
   /* Queen */
   .casestudy:nth-child(10) {
     transform: rotate(-4deg);
-    z-index: 9;
+    z-index: 10;
     left: 310px;
     top: 830px;
   }
 
-  /* The Body Shop */
+  /* Lana */
   .casestudy:nth-child(11) {
-    transform: rotate(10deg);
+    transform: rotate(7deg);
     z-index: 8;
     left: 600px;
     top: 830px;
   }
+
 
   /* Gameboy */
   .casestudy:nth-child(12) {
@@ -401,20 +402,29 @@ html {
   /* UI */
   .casestudy:nth-child(13) {
     transform: rotate(-4deg);
-    z-index: 8;
+    z-index: 9;
     left: 310px;
     top: 1100px;
   }
 
+  /* Body Shop */
+  .casestudy:nth-child(14) {
+    transform: rotate(-5deg);
+    z-index: 9;
+    left: 600px;
+    top: 1100px;
+  }
+
+
   /* -------------- */
 
   /* Branding Icon */
-  .casestudy:nth-child(14) {
+  .casestudy:nth-child(15) {
 
   }
 
   /* uTan */
-  .casestudy:nth-child(15) {
+  .casestudy:nth-child(16) {
     transform: rotate(6deg);
     z-index: 10;
     left: 20px;
@@ -422,7 +432,7 @@ html {
   }
 
   /* Algonquin */
-  .casestudy:nth-child(16) {
+  .casestudy:nth-child(17) {
     transform: rotate(-8deg);
     z-index: 9;
     left: 310px;
@@ -430,7 +440,7 @@ html {
   }
 
   /* Annual Report */
-  .casestudy:nth-child(17) {
+  .casestudy:nth-child(18) {
     transform: rotate(5deg);
     z-index: 9;
     left: 600px;
@@ -440,11 +450,11 @@ html {
   /* ------------- */
 
   /* Photography Icon */
-  .casestudy:nth-child(18) {
+  .casestudy:nth-child(19) {
   }
 
   /* Liquid */
-  .casestudy:nth-child(19) {
+  .casestudy:nth-child(20) {
     transform: rotate(-4deg);
     z-index: 46;
     left: 20px;
@@ -452,7 +462,7 @@ html {
   }
 
   /* Portfolio */
-  .casestudy:nth-child(20) {
+  .casestudy:nth-child(21) {
     transform: rotate(-3deg);
     z-index: 45;
     left: 310px;
@@ -460,7 +470,7 @@ html {
   }
 
   /* MDNA */
-  .casestudy:nth-child(21) {
+  .casestudy:nth-child(22) {
     transform: rotate(6deg);
     z-index: 44;
     left: 600px;
@@ -468,7 +478,7 @@ html {
   }
 
   /* Albums */
-  .casestudy:nth-child(22) {
+  .casestudy:nth-child(23) {
     transform: rotate(-6deg);
     z-index: 44;
     left: 30px;
@@ -476,7 +486,7 @@ html {
   }
 
   /* Quote Book */
-  .casestudy:nth-child(23) {
+  .casestudy:nth-child(24) {
     transform: rotate(3deg);
     z-index: 44;
     left: 310px;
@@ -484,7 +494,7 @@ html {
   }
 
   /* Carasauga */
-  .casestudy:nth-child(24) {
+  .casestudy:nth-child(25) {
     transform: rotate(6deg);
     z-index: 44;
     left: 600px;

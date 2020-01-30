@@ -405,6 +405,10 @@ html {
     color: #f62681;
   }
 
+  .parallax .project-logo {
+    color: #c7e194;
+  }
+
 }
 
 /* 404 page */
@@ -717,6 +721,11 @@ html {
 
   .ui .project-logo {
     bottom: 140px;
+  }
+
+  .parallax .project-logo {
+    bottom: 145px;
+    width: 50%;
   }
 
   /* 404 page */
@@ -1036,6 +1045,10 @@ html {
   }
 
   .ui .project-logo {
+    bottom: 200px;
+  }
+
+  .parallax .project-logo {
     bottom: 200px;
   }
 
